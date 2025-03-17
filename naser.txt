@@ -1,0 +1,2340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "JATS-journalpublishing1-3.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.3" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">sensors</journal-id>
+      <journal-title-group>
+        <journal-title>Sensors</journal-title>
+        <abbrev-journal-title abbrev-type="publisher">Sensors</abbrev-journal-title>
+        <abbrev-journal-title abbrev-type="pubmed">Sensors</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1424-8220</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/s22031038</article-id>
+      <article-id pub-id-type="publisher-id">sensors-22-01038</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>aymanzazy49@gmail.com</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0001-8271-6843</contrib-id>
+          <name>
+            <surname>P&#xE9;rez-Rubio</surname>
+            <given-names>Mar&#xED;a Carmen</given-names>
+          </name>
+          <xref rid="af1-sensors-22-01038" ref-type="aff">1</xref>
+          <xref rid="c1-sensors-22-01038" ref-type="corresp">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0001-9308-8133</contrib-id>
+          <name>
+            <surname>Hern&#xE1;ndez</surname>
+            <given-names>&#xC1;lvaro</given-names>
+          </name>
+          <xref rid="af1-sensors-22-01038" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Gualda-G&#xF3;mez</surname>
+            <given-names>David</given-names>
+          </name>
+          <xref rid="af2-sensors-22-01038" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Murano</surname>
+            <given-names>Santiago</given-names>
+          </name>
+          <xref rid="af1-sensors-22-01038" ref-type="aff">1</xref>
+          <xref rid="af3-sensors-22-01038" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Vicente-Ranera</surname>
+            <given-names>Jorge</given-names>
+          </name>
+          <xref rid="af1-sensors-22-01038" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Ciudad-Fern&#xE1;ndez</surname>
+            <given-names>Francisco</given-names>
+          </name>
+          <xref rid="af1-sensors-22-01038" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0001-5900-0978</contrib-id>
+          <name>
+            <surname>Villadangos</surname>
+            <given-names>Jos&#xE9; Manuel</given-names>
+          </name>
+          <xref rid="af1-sensors-22-01038" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-8293-9665</contrib-id>
+          <name>
+            <surname>Nieto</surname>
+            <given-names>Rub&#xE9;n</given-names>
+          </name>
+          <xref rid="af4-sensors-22-01038" ref-type="aff">4</xref>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Torres-Sospedra</surname>
+            <given-names>Joaqu&#xED;n</given-names>
+          </name>
+          <role>Academic Editor</role>
+        </contrib>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Perez-Navarro</surname>
+            <given-names>Antoni</given-names>
+          </name>
+          <role>Academic Editor</role>
+        </contrib>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Montoliu</surname>
+            <given-names>Ra&#xFA;l</given-names>
+          </name>
+          <role>Academic Editor</role>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-sensors-22-01038"><label>1</label>Department of Electronics, University of Alcal&#xE1;, 28801 Alcal&#xE1; de Henares, Madrid, Spain; <email>alvaro.hernandez@uah.es</email> (&#xC1;.H.); <email>santiago.murano@edu.uah.es</email> (S.M.); <email>jorge.vicenter@uah.es</email> (J.V.-R.); <email>francisco.ciudad@uah.es</email> (F.C.-F.); <email>jm.villadangos@uah.es</email> (J.M.V.)</aff>
+      <aff id="af2-sensors-22-01038"><label>2</label>Signal Theory and Communications Department, Rey Juan Carlos University, 28942 Fuenlabrada, Madrid, Spain; <email>david.gualda@urjc.es</email></aff>
+      <aff id="af3-sensors-22-01038"><label>3</label>Electronics Department, University of Patagonia San Juan Bosco, Comodoro Rivadavia (Chubut), Tierra del Fuego V9410 AQD, Argentina</aff>
+      <aff id="af4-sensors-22-01038"><label>4</label>Electronics Technology Department, Rey Juan Carlos University, 28933 M&#xF3;stoles, Madrid, Spain; <email>ruben.nieto@urjc.es</email></aff>
+      <author-notes>
+        <corresp id="c1-sensors-22-01038"><label>*</label>Correspondence: <email>mcarmen.perezr@uah.es</email></corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>28</day>
+        <month>01</month>
+        <year>2022</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <month>02</month>
+        <year>2022</year>
+      </pub-date>
+      <volume>22</volume>
+      <issue>3</issue>
+      <elocation-id>1038</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>24</day>
+          <month>12</month>
+          <year>2021</year>
+        </date>
+        <date date-type="accepted">
+          <day>25</day>
+          <month>01</month>
+          <year>2022</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2022 by the authors.</copyright-statement>
+        <copyright-year>2022</copyright-year>
+        <license license-type="open-access">
+          <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>This work presents the CODEUS platform, which includes a simulation tool together with an online experimental demonstrator to offer analysis and testing flexibility for researchers and developers in Ultrasonic Indoor Positioning Systems (UIPSs). The simulation platform allows most common encoding techniques and sequences to be tested in a configurable UIPS. It models the signal modulation and processing, the ultrasonic transducers&#x2019; response, the beacon distribution, the channel propagation effects, the synchronism, and the application of different positioning algorithms. CODEUS provides results and performance analysis for different metrics and at different stages of the signal processing. The UIPS simulation tool is specified by means of the MATLAB&#xA9; App-Designer environment, which enables the definition of a user-friendly interface. It has also been linked to an online demonstrator that can be managed remotely by means of a website, thus avoiding any hardware requirement or equipment on behalf of researchers. This demonstrator allows the selected transmission schemes, modulation or encoding techniques to be validated in a real UIPS, therefore enabling a fast and easy way of carrying out experimental tests in a laboratory environment, while avoiding the time-consuming tasks related to electronic design and prototyping in the UIPS field. Both simulator and online demonstrator are freely available for researchers and students through the corresponding website.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>simulation platform</kwd>
+        <kwd>Ultrasonic Indoor Positioning System (UIPS)</kwd>
+        <kwd>online demonstrator</kwd>
+        <kwd>encoding techniques for active sensing</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-sensors-22-01038" sec-type="intro">
+      <title>1. Introduction</title>
+      <p>The global spread and huge increase in new Location-Based Services (LBS) or context-aware computing, in which accurate information about the target location is required, have boosted the research in Indoor Positioning Systems (IPSs) in different application domains: museums and tourism [<xref ref-type="bibr" rid="B1-sensors-22-01038">1</xref>,<xref ref-type="bibr" rid="B2-sensors-22-01038">2</xref>], gaming and augmented reality [<xref ref-type="bibr" rid="B3-sensors-22-01038">3</xref>], mall navigation [<xref ref-type="bibr" rid="B4-sensors-22-01038">4</xref>], hospitals and monitoring of the elderly [<xref ref-type="bibr" rid="B5-sensors-22-01038">5</xref>], airports [<xref ref-type="bibr" rid="B6-sensors-22-01038">6</xref>], logistics or security, and emergency responders [<xref ref-type="bibr" rid="B7-sensors-22-01038">7</xref>]. In general, IPSs can be divided into two main categories: infrastructure-free and infrastructure-based. The first includes Inertial Measurement Units (IMUs) [<xref ref-type="bibr" rid="B8-sensors-22-01038">8</xref>], and vision-based [<xref ref-type="bibr" rid="B9-sensors-22-01038">9</xref>] or magnetic-based systems [<xref ref-type="bibr" rid="B10-sensors-22-01038">10</xref>]. These are often flexible enough to properly work in any environment, without requiring any previous adaptation. In other cases, it is necessary to have some previous knowledge about the environment. By comparison, infrastructure-dependent systems commonly take advantage of signals of opportunity or may require the installation of dedicated infrastructure. Among this range, Radio Frequency (RF)-based systems are widely used because they can apply the WiFi infrastructure already installed for communication purposes to positioning after a calibration process (fingerprinting) [<xref ref-type="bibr" rid="B11-sensors-22-01038">11</xref>], although with a typical meter-level accuracy [<xref ref-type="bibr" rid="B12-sensors-22-01038">12</xref>]. Other alternatives are either Bluetooth Low Energy (BLE), based on inexpensive and long-battery-life antennas for a zone-based approach [<xref ref-type="bibr" rid="B13-sensors-22-01038">13</xref>], or Ultra-Wideband (UWB) technologies to obtain accuracies below decimeters [<xref ref-type="bibr" rid="B14-sensors-22-01038">14</xref>,<xref ref-type="bibr" rid="B15-sensors-22-01038">15</xref>]. In this context, some relevant surveys about IPS and their associated technologies can be found in [<xref ref-type="bibr" rid="B16-sensors-22-01038">16</xref>,<xref ref-type="bibr" rid="B17-sensors-22-01038">17</xref>,<xref ref-type="bibr" rid="B18-sensors-22-01038">18</xref>]. Note also that different technologies may be complementary for indoor positioning, obtaining hybrid systems that increase coverage, reliability, and confidence. Usually, these systems use a technology that provides absolute ranging (e.g., WiFi, RF, and cameras) and another that provides relative ranging (inertial sensors) [<xref ref-type="bibr" rid="B19-sensors-22-01038">19</xref>,<xref ref-type="bibr" rid="B20-sensors-22-01038">20</xref>,<xref ref-type="bibr" rid="B21-sensors-22-01038">21</xref>], using probabilistic filters (e.g., a Kalman filter [<xref ref-type="bibr" rid="B22-sensors-22-01038">22</xref>]) for merging the data.</p>
+      <p>Acoustic-based systems such as Ultrasonic IPSs (UIPSs), which are the focus of this work, are a cost-effective solution that can reach accuracies in the range of centimeters with coverage distances up to some tens of meters. This accuracy is usually obtained using beacons with encoded transmissions and pulse compression techniques for the detection at the receiver, which also ensures a high robustness to noise and more tolerance to other negative effects [<xref ref-type="bibr" rid="B23-sensors-22-01038">23</xref>,<xref ref-type="bibr" rid="B24-sensors-22-01038">24</xref>]. Furthermore, ultrasonic transducers are small, their transmissions are room-constrained, and they can be easily integrated into mobile phones [<xref ref-type="bibr" rid="B25-sensors-22-01038">25</xref>].</p>
+      <p>The final performance of an UIPS is determined by some factors; in fact, there is a wide variety of available options regarding equipment, beacon deployment, signal configuration, or positioning methods. In this regard, there is a trade-off between the minimum number of beacons to be installed to reduce costs, their geometric configuration to obtain a suitable coverage area, and the redundancy required to cope with possible occlusions. One alternative is to carry out a deployment with ultrasonic beacons only in zones where centimeter positioning is required, while using other technologies, such as inertial sensors or RF signals available in the environment, in those areas where a coarse-grained positioning is enough [<xref ref-type="bibr" rid="B25-sensors-22-01038">25</xref>]. Beacons can emit simultaneously or at certain intervals using a time division multiple access (TDMA) technique. TDMA has the advantage of reducing the Multiple Access Interference (MAI), but decreases the position update rate, which can limit the detection of a target in motion. A common strategy to allow simultaneous emission while minimizing the MAI is the incorporation of broadband sequences from Code Division Multiple Access (CDMA) techniques. This implies assigning a different and unique waveform to each emitter, in such a manner that it can be effectively separated from the other transmissions at the receiver, even in the presence of noise [<xref ref-type="bibr" rid="B24-sensors-22-01038">24</xref>,<xref ref-type="bibr" rid="B26-sensors-22-01038">26</xref>]. It is worth mentioning that in ultrasonic positioning, bursting emissions are more common because they deal better with multipath interferences, at the expense of worsening the correlation properties of many sequences that are intended for periodic correlation. The bandwidth restrictions of the ultrasound transducers and the modulation scheme for the signal transmission strongly affect the aforementioned correlation properties, thus having an impact on the final system performance [<xref ref-type="bibr" rid="B23-sensors-22-01038">23</xref>]. In addition, on the receiver side, decisions must be made about the microphone to be used, the sampling frequency, the synchronism constraints, or the implemented positioning algorithm. Spherical trilateration can be used in UIPS, based on Time of Arrival (ToA) measurements; nevertheless, in this case, it is necessary to provide some synchronization between the beacons and the target receiver. To avoid adding any technology apart from the ultrasonic signals, Time-Differences-of-Arrival (TDoA), which requires the inclusion of another beacon, can be used for 3D positioning. This hyperbolic trilateration often results in lower accuracies compared to the spherical option [<xref ref-type="bibr" rid="B27-sensors-22-01038">27</xref>], but does not require a synchronism link between the beacons and the receiver.</p>
+      <p>It is well known that experimentally analyzing the influence of the aforementioned parameters in a real UIPS may be time consuming and arduous [<xref ref-type="bibr" rid="B28-sensors-22-01038">28</xref>]. Thus, software simulation models are useful to obtain a full picture of how the system will behave under different circumstances. Furthermore, a predefined experimental UIPS architecture, which is flexible enough to allow the testing of different encoding techniques, modulations, or transmission schemes, can become key to obtain preliminary results with real signals, while avoiding the big efforts and hardware/software skills demanded by the implementation and prototyping of any electronic system. If this predefined architecture can be remotely configured and is accessible to the research community, it will allow the evaluation and comparison of different configurations and algorithms under the same conditions. Such an approach is desirable because the variety of beacon deployments and equipment used in experiments is so wide and customized that undertaking a fair comparison of the algorithms proposed by different research teams is not feasible [<xref ref-type="bibr" rid="B18-sensors-22-01038">18</xref>,<xref ref-type="bibr" rid="B29-sensors-22-01038">29</xref>]. </p>
+      <p>This work presents the CODEUS platform, which is oriented to facilitate, by both simulation and preliminary experimental tests, the comparison of different encoding and modulation schemes in a typical UIPS scenario, by means of a user-friendly interface. The tool allows the convenient avoidance of the initial gap of researchers in experimental tests, and is an educational tool for PhD students working in the UIPS field. The main contributions of this work are:<list list-type="bullet"><list-item><p>Integration in a single simulation platform of a large variety of real-world issues and configurable parameters that affect the design and behavior of acoustic positioning systems. The platform also deals with the high-level processing stage regarding peak detection and positioning estimation.</p></list-item><list-item><p>Design of a remotely configurable UIPS that can be managed from a website to obtain preliminary experimental results, and to compare diverse signal designs by different authors under the same setup.</p></list-item><list-item><p>Validation of simulated results against the corresponding experimental tests obtained with the online demonstrator.</p></list-item></list></p>
+      <p>The remainder of this manuscript is organized as follows: <xref ref-type="sec" rid="sec2-sensors-22-01038">Section 2</xref> reviews the related work; <xref ref-type="sec" rid="sec3-sensors-22-01038">Section 3</xref> presents the CODEUS platform overview; <xref ref-type="sec" rid="sec4-sensors-22-01038">Section 4</xref> is dedicated to the simulation tool, whereas <xref ref-type="sec" rid="sec5-sensors-22-01038">Section 5</xref> deals with the description of the online demonstrator; <xref ref-type="sec" rid="sec6-sensors-22-01038">Section 6</xref> describes a practical case with the online demonstrator and compares the results with those obtained from the simulator; and, finally, conclusions are discussed in <xref ref-type="sec" rid="sec7-sensors-22-01038">Section 7</xref>.</p>
+    </sec>
+    <sec id="sec2-sensors-22-01038">
+      <title>2. aymanzazy49@gmail.com</title>
+      <p>Simulations have become a key tool to deal with the design, testing, and validation of positioning systems, and several approaches can be found in the literature [<xref ref-type="bibr" rid="B30-sensors-22-01038">30</xref>]. SMILe [<xref ref-type="bibr" rid="B31-sensors-22-01038">31</xref>] is an open-source tool for developing and evaluating indoor RF positioning methods based on ToA or TDoA. The simulator is developed under OMNET++, which is an extensible component-based C++ framework and simulation library for building network simulators, and also includes the INET open-source model library from the OMNET++ environment to build complex wired and wireless communications. It allows the user to adjust different aspects of the simulation, such as radio wave propagation models, node mobility, or hardware clock accuracy. In addition, an analytical package was written in Python 3 to assist the user in the implementation and evaluation of ToA and TDoA solvers. PyLayers [<xref ref-type="bibr" rid="B32-sensors-22-01038">32</xref>] is a Python platform that provides a flexible tool to investigate radio propagation channel and indoor localization algorithms using UWB radio signals. It is based on a ray-tracing model, and also comprises an indoor human mobility simulator for wearables and WBAN. The Navindoor platform is more versatile, although with less complex ToA models [<xref ref-type="bibr" rid="B33-sensors-22-01038">33</xref>]. It is also an open-source tool, developed under object-oriented programming in MATLAB&#xA9;, which allows the definition of the scenario, trajectory, and dynamics of moving people in indoor spaces, including the synthetic generation of different types of signals: beacon-based (Received Signal Strength, ToA, and Angle-of-Arrival) or beacon-free (barometer, magnetometer, inertial, and gyroscope), and their associated processing for the comparison of the resulting estimations. In Young et al. [<xref ref-type="bibr" rid="B34-sensors-22-01038">34</xref>], IMUsim is presented as a simulation environment developed to model the aspects of IMU operation. It is based on Python under an open-source license, ready to be used with new models and algorithms, thus allowing continuous development. This simulator has been focused on inertial applications and can simulate the corresponding IMU measurements from the trajectories defined by any application.</p>
+      <p>The work in &#xC1;lvarez et al. [<xref ref-type="bibr" rid="B35-sensors-22-01038">35</xref>] specifically addresses the modeling of a beacon-based UIPS in MATLAB, considering many aspects and details in the low-level processing of ultrasonic signals, such as the effect of the beacons&#x2019; frequency response, the bandwidth, the multipath propagation, or the receiver&#x2019;s movement. The system is based on Binary Phase Shift Keying (BPSK)-modulated Kasami codes and provides results in terms of ToA measurements and quality of the correlation functions (sidelobe-to-mainlobe ratio and shift of the auto-correlation peaks). Other works have attempted to optimize the ToA estimations through simulation and experimental tests of different encoding and modulation techniques. Examples of BPSK modulations with different digital codes can be widely found in the literature [<xref ref-type="bibr" rid="B23-sensors-22-01038">23</xref>,<xref ref-type="bibr" rid="B36-sensors-22-01038">36</xref>,<xref ref-type="bibr" rid="B37-sensors-22-01038">37</xref>]. Most of these codes are designed for periodic correlation, and they present higher correlation sidelobes in case of aperiodic transmissions. By comparison, codes that operate on a multiple-sequence-per user basis, such as Complementary Set of Sequences (CSS) [<xref ref-type="bibr" rid="B38-sensors-22-01038">38</xref>], provide ideal properties in the sum of the aperiodic correlation functions. Nevertheless, they may also require more complex modulation or transmission schemes, which often imply a degradation in their initial correlation properties [<xref ref-type="bibr" rid="B39-sensors-22-01038">39</xref>]. Generalized Orthogonal codes, such as Loosely Synchronous (LS) codes, are unitary sequences that have also been used in UIPS, due to the Zero Correlation Zone (ZCZ) that appears around the main correlation peak; however, they are constrained to quasi-synchronous applications where the different incoming signals must be received within this ZCZ [<xref ref-type="bibr" rid="B40-sensors-22-01038">40</xref>,<xref ref-type="bibr" rid="B41-sensors-22-01038">41</xref>]. Furthermore, LS codes, in addition to CSS, do not cope well with the Doppler effect [<xref ref-type="bibr" rid="B42-sensors-22-01038">42</xref>]. Chirp signals have often been involved due to the suitable properties of their compressed pulse against Doppler, but their performance is constrained in simultaneous multiuser environments [<xref ref-type="bibr" rid="B43-sensors-22-01038">43</xref>]. Polyphase sequences, such as Zadoff-Chu codes [<xref ref-type="bibr" rid="B44-sensors-22-01038">44</xref>], can be a suitable option due to their length flexibility and tolerance to Doppler. In Murano et al. [<xref ref-type="bibr" rid="B45-sensors-22-01038">45</xref>], different Quadrature PSK (QPSK), Orthogonal Frequency Division Multiplexing (OFDM), and Orthogonal Chirp Multiplexing (OCDM) modulation schemes are compared for the transmission of Zadoff-Chu codes in an UIPS. Moreover, the Frequency-Hopping Spread Spectrum (FHSS) has been applied to IPSs to handle multiple access [<xref ref-type="bibr" rid="B46-sensors-22-01038">46</xref>]; however, ultrasonic transducers have a narrow frequency bandwidth, so the effective bandwidth for every hop is significantly reduced when the number of simultaneous emissions increases. Taking into account the previous considerations, it can be stated that there is no unique solution for the wave design of a UIPS, and obtaining the highest possible robustness and accuracy depends on the UIPS configuration and application [<xref ref-type="bibr" rid="B41-sensors-22-01038">41</xref>,<xref ref-type="bibr" rid="B47-sensors-22-01038">47</xref>].</p>
+      <p>Regarding the aforementioned context, this work presents a simulator that covers all the processing levels of the ultrasonic signal, in addition to an online demonstrator, thus helping reduce the barriers to real-world validation. As an example of usability, the proposed platform has been involved in the Local Positioning Systems course from the Master in Electronic Engineering at the University of Alcal&#xE1;, in addition to the Indoor Positioning and Indoor Navigation Conference (IPIN 2021) as part of Tutorial 4: Tools for Acoustic Indoor Localization Systems. The simulator helped bridge the gap between the equations and algorithmic definitions and the practical implementations required in a successful learning environment. Thus, the theoretical coaching was enhanced with a practical approach, in which attendants could easily simulate their own UIPS and test their positioning-related algorithms with real signals. The discussions and suggestions after the practical tutorial in IPIN 2021 contributed to improving the platform. As a result, a new peak detection algorithm was included to provide multipath compensation and more flexibility was enabled. As a possible indicator of the interest of the research community in Acoustic IPS (AIPS), <xref ref-type="table" rid="sensors-22-01038-t001">Table 1</xref> shows the percentage of papers related to AIPS in the last five editions of the IPIN conference. It can be observed that acoustic technology is still important in the field of IPS.</p>
+    </sec>
+    <sec id="sec3-sensors-22-01038">
+      <title>3. aymanzazy49@gmail.com</title>
+      <p>CODEUS includes a simulator and an online demonstrator for a UIPS based on encoding techniques. The system is based on a set of active encoded beacons located at fixed positions in the environment, and a receiver that processes the incoming signals determines the ToA (or TDoA if it is not synchronized with the beacons), and estimates its own position. <xref ref-type="fig" rid="sensors-22-01038-f001">Figure 1</xref> illustrates the global block diagram of the proposed platform. The simulation model is highly configurable, because the user can define the number and location of beacons, the codes/modulation for the signal design, the type of transducer, or the medium access technique for beacons (i.e., time-multiplexed, among others). On the receiver side, it allows configuration of the location and type of receiver, its moving speed, the sampling frequency in the acquisition, and the definition of the synchronism with the emitting beacons. Furthermore, it includes other typical effects of the ultrasonic signal propagation, such as multipath, noise, temperature, or air absorption. Regarding the position computation, several algorithms can be tested, depending on the selected spherical or hyperbolic trilateration. Both numerical and graphical results are shown and can be downloaded at every stage of the processing. The modulated codes are easily exported by means of the simulator user interface and they are already adapted for experimental tests in the proposed online demonstrator, thus obtaining results with real signals that can be compared with those from the simulator. The demonstrator is based on a UIPS formed by five emitters placed at a height of 348 cm in a 70.7 cm &#xD7; 70.7 cm square. It provides a coverage area of approximately 30 m<sup>2</sup> on the floor, where four receivers are placed at certain locations of interest in a laboratory environment. Any user can remotely access and configure the UIPS from a website, and the experimental acquisitions will be available to be downloaded from the cloud. Both the online demonstrator and simulator are freely available for researchers through the website available online: <uri>http://www3.uah.es/locate-us/</uri> (accessed on 23 December 2021), after a basic registration process. </p>
+    </sec>
+    <sec id="sec4-sensors-22-01038">
+      <title>4. aymanzazy49@gmail.com</title>
+      <p>A detailed description of the proposed simulation platform is provided hereinafter, by dealing with the different modules that should be set up for a correct operation: the emission module (beacons), the receiver, the channel modeling, the positioning algorithm used to estimate the receiver&#x2019;s position, and the display of the final results. The MATLAB&#xA9; App-Designer environment was used to incorporate the user interface and integrate the developed algorithms. The MATLAB&#xA9; environment is widely used both by researchers and educators due to its signal processing potential, flexible computational possibilities, and options to create new tools, where new functionalities or updates can be easily included [<xref ref-type="bibr" rid="B33-sensors-22-01038">33</xref>,<xref ref-type="bibr" rid="B48-sensors-22-01038">48</xref>,<xref ref-type="bibr" rid="B49-sensors-22-01038">49</xref>].</p>
+      <sec id="sec4dot1-sensors-22-01038">
+        <title>4.1. aymanzazy49@gmail.com</title>
+        <p>The first step in the emission configuration is the code selection, and the second step allows the design of the different parameters related to the emission. An example for the configuration of Kasami codes can be observed in <xref ref-type="fig" rid="sensors-22-01038-f002">Figure 2</xref>. Note that Kasami sequences have already been considered as a suitable option to encode ultrasonic transmissions, so they will be used in most examples hereinafter.</p>
+        <p>As mentioned above, the optimization of the signals transmitted by the beacons allows the accuracy and robustness of the ranging estimation to be enhanced. The correlation of the received signal with the emitted pattern should be as close as possible to a Kronecker delta and, in multiuser applications, the cross-correlation functions among the different emission sources should be zero. In recent decades, many encoding schemes have been proposed in UIPSs, each with their corresponding correlation properties [<xref ref-type="bibr" rid="B26-sensors-22-01038">26</xref>] and generation methods, which can be computationally expensive. The proposed platform automatizes the generation of sequences and incorporates the most common of these in the ultrasonic signal design: Kasami sequences [<xref ref-type="bibr" rid="B50-sensors-22-01038">50</xref>], Complementary Set of Sequences (CSS) [<xref ref-type="bibr" rid="B38-sensors-22-01038">38</xref>,<xref ref-type="bibr" rid="B51-sensors-22-01038">51</xref>], Loosely Synchronous codes (LS) [<xref ref-type="bibr" rid="B40-sensors-22-01038">40</xref>], and Zadoff-Chu codes (ZC) [<xref ref-type="bibr" rid="B44-sensors-22-01038">44</xref>,<xref ref-type="bibr" rid="B52-sensors-22-01038">52</xref>]. <xref ref-type="fig" rid="sensors-22-01038-f003">Figure 3</xref> shows the difference between aperiodic and periodic correlations for the proposed schemes. For more flexibility, the CODEUS platform allows the testing of any other encoding scheme in addition to the previous ones, by uploading a configuration file with the corresponding transmissions to be carried out.</p>
+        <p>Modulation is required to adjust the codes to be transmitted to the bandwidth available in the transducers. The modulation technique affects the correlation results from the matched filtering detection; hence, some authors have analyzed the suitability of different schemes [<xref ref-type="bibr" rid="B43-sensors-22-01038">43</xref>,<xref ref-type="bibr" rid="B44-sensors-22-01038">44</xref>,<xref ref-type="bibr" rid="B45-sensors-22-01038">45</xref>,<xref ref-type="bibr" rid="B46-sensors-22-01038">46</xref>]. Phase Shift Keying (PSK) modulations, such as Binary Phase Shift Keying (BPSK) or Quadrature Phase Shift Keying (QPSK), are widely used in UIPSs and are the option included by default in the simulation platform (BPSK for binary sequences and QPSK for complex sequences). Other options can also be tested by customizing the sequence design. The main advantages of PSK modulations are their simplicity and efficient use of the transducer bandwidth; nevertheless, they also cause some sidelobes in the surroundings of the main correlation peak, as can be observed in <xref ref-type="fig" rid="sensors-22-01038-f004">Figure 4</xref>, which may imply an error in the ToA determination. The PSK modulation of a sequence <italic>s<sub>k</sub></italic>[<italic>l</italic>] is described in Equation (1):<disp-formula id="FD1-sensors-22-01038"><label>(1)</label><mml:math id="mm1" display="block"><mml:semantics><mml:mrow><mml:mtable equalrows="true" equalcolumns="true"><mml:mtr><mml:mtd><mml:mrow><mml:mi>C</mml:mi><mml:mi>r</mml:mi><mml:mfenced close="]" open="["><mml:mi>n</mml:mi></mml:mfenced><mml:mo>&#xA0;</mml:mo><mml:mo>=</mml:mo><mml:mo>&#xA0;</mml:mo><mml:mi>cos</mml:mi><mml:mfenced><mml:mrow><mml:mn>2</mml:mn><mml:mi>&#x3C0;</mml:mi><mml:msub><mml:mi>f</mml:mi><mml:mi>c</mml:mi></mml:msub><mml:mi>n</mml:mi></mml:mrow></mml:mfenced><mml:mo>&#xA0;</mml:mo><mml:mo>&#x2212;</mml:mo><mml:mo>&#xA0;</mml:mo><mml:mi>j</mml:mi><mml:mo>&#xA0;</mml:mo><mml:mo>&#xB7;</mml:mo><mml:mo>&#xA0;</mml:mo><mml:mi>sin</mml:mi><mml:mfenced><mml:mrow><mml:mn>2</mml:mn><mml:mi>&#x3C0;</mml:mi><mml:msub><mml:mi>f</mml:mi><mml:mi>c</mml:mi></mml:msub><mml:mi>n</mml:mi></mml:mrow></mml:mfenced><mml:mo>;</mml:mo><mml:mo>&#xA0;</mml:mo><mml:mn>0</mml:mn><mml:mo>&#x2264;</mml:mo><mml:mfrac><mml:mi>n</mml:mi><mml:mrow><mml:msub><mml:mi>f</mml:mi><mml:mi>s</mml:mi></mml:msub></mml:mrow></mml:mfrac><mml:mo>&#x2264;</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mi>O</mml:mi><mml:mi>f</mml:mi></mml:msub><mml:msub><mml:mi>O</mml:mi><mml:mi>c</mml:mi></mml:msub></mml:mrow><mml:mrow><mml:msub><mml:mi>f</mml:mi><mml:mi>s</mml:mi></mml:msub></mml:mrow></mml:mfrac></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow><mml:msub><mml:mi>m</mml:mi><mml:mi>k</mml:mi></mml:msub><mml:mfenced close="]" open="["><mml:mi>n</mml:mi></mml:mfenced><mml:mo>&#xA0;</mml:mo><mml:mo>=</mml:mo><mml:mo>&#xA0;</mml:mo><mml:msubsup><mml:mstyle mathsize="140%" displaystyle="true"><mml:mo>&#x2211;</mml:mo></mml:mstyle><mml:mrow><mml:mi>l</mml:mi><mml:mo>=</mml:mo><mml:mn>0</mml:mn></mml:mrow><mml:mrow><mml:msub><mml:mi>L</mml:mi><mml:mrow><mml:msub><mml:mi>c</mml:mi><mml:mi>k</mml:mi></mml:msub></mml:mrow></mml:msub><mml:mo>&#x2212;</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msubsup><mml:mfenced close="]" open="["><mml:mrow><mml:mo>&#x211D;</mml:mo><mml:mfenced><mml:mrow><mml:msub><mml:mi>s</mml:mi><mml:mi>k</mml:mi></mml:msub><mml:mfenced close="]" open="["><mml:mi>l</mml:mi></mml:mfenced></mml:mrow></mml:mfenced><mml:mo>&#xA0;</mml:mo><mml:mo>&#xB7;</mml:mo><mml:mo>&#xA0;</mml:mo><mml:mo>&#x211D;</mml:mo><mml:mfenced><mml:mrow><mml:mi>C</mml:mi><mml:mi>r</mml:mi><mml:mfenced close="]" open="["><mml:mi>n</mml:mi></mml:mfenced></mml:mrow></mml:mfenced><mml:mo>&#xA0;</mml:mo><mml:mo>&#x2212;</mml:mo><mml:mo>&#xA0;</mml:mo><mml:mi mathvariant="double-struck">I</mml:mi><mml:mi>m</mml:mi><mml:mfenced><mml:mrow><mml:msub><mml:mi>s</mml:mi><mml:mi>k</mml:mi></mml:msub><mml:mfenced close="]" open="["><mml:mi>l</mml:mi></mml:mfenced></mml:mrow></mml:mfenced><mml:mo>&#xA0;</mml:mo><mml:mo>&#xB7;</mml:mo><mml:mo>&#xA0;</mml:mo><mml:mi mathvariant="double-struck">I</mml:mi><mml:mi>m</mml:mi><mml:mfenced><mml:mrow><mml:mi>C</mml:mi><mml:mi>r</mml:mi></mml:mrow></mml:mfenced></mml:mrow></mml:mfenced></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:semantics></mml:math></disp-formula>
+        where <italic>Cr</italic>[<italic>n</italic>] is the complex carrier for the QPSK modulation (note that if the sequence is binary, the imaginary part will be zero and the carrier will only have the real part, resulting in a BPSK scheme); <italic>O<sub>c</sub></italic> is the number of carrier cycles; <italic>O<sub>f</sub></italic> = <italic>f<sub>c</sub></italic>/<italic>f<sub>s</sub></italic> is the oversampling factor, or ratio between the carrier frequency <italic>f<sub>c</sub></italic> and the sampling frequency <italic>f<sub>s</sub></italic>; and <italic>m<sub>k</sub></italic> is the modulated signal to be emitted.</p>
+        <p>The platform allows the transducer models used in the emission or reception to be inserted. It also provides some preloaded models that can be selected from a list box: the Prowave 38ST160 [<xref ref-type="bibr" rid="B53-sensors-22-01038">53</xref>] in the emission stage; and, in the reception stage, the GRAS40BE [<xref ref-type="bibr" rid="B54-sensors-22-01038">54</xref>] or a MEMS microphone SPU414HR5HSB [<xref ref-type="bibr" rid="B55-sensors-22-01038">55</xref>]. A FIR filter was designed to model the transducers&#x2019; effect; in this way, <xref ref-type="fig" rid="sensors-22-01038-f005">Figure 5</xref> shows the measured transducer frequency response for the Prowave 38ST160 (in red), compared with the modeled one (blue line).</p>
+        <p>The simulation platform allows different techniques for multiple access, as can be observed in <xref ref-type="fig" rid="sensors-22-01038-f006">Figure 6</xref>. In all of these, every emitter is assigned a unique modulated code <italic>m<sub>k</sub></italic>, so the interference among them is minimized using codes with low cross-correlation functions. In the CDMA case, all the transducers emit simultaneously. A Time Code Division Multiple Access (TCDMA) case that combines the advantages of both TDMA and CDMA is also possible, where the transducers emit consecutively over time, one after other, and each one transmits its corresponding code. Finally, the transducers can emit with a configurable separation <italic>Tshift</italic> from the others, so any overlap can be simulated (regardless of whether <italic>Tshift</italic> equals the time <italic>T<sub>e</sub></italic> required for the emission of every code, the TCDMA method is obtained). The platform allows the configuration of the emission repetition period, in addition to the number of emissions to be performed, which can be useful for obtaining statistical comparisons.</p>
+        <p>Another key aspect is the determination of the number and location of beacons that compose an UIPS, since this strongly affects the cost, coverage area, and accuracy of the final system. The Position Dilution of Precision (PDOP) [<xref ref-type="bibr" rid="B56-sensors-22-01038">56</xref>] is a common metric used to select the number and distribution of the beacons, as it shows the uncertainty of the receiver&#x2019;s location estimation at different positions according to the noise in the measurements and the location of the beacons. As can be observed in <xref ref-type="fig" rid="sensors-22-01038-f002">Figure 2</xref>, the position of beacons can be defined in 3D coordinates (<italic>x</italic>, <italic>y</italic>, and <italic>z</italic>) in the simulator environment, and the PDOP can also be displayed. The parameters that can be configured to analyze this metric are: the height of the receiver; the size of the positioning volume; the interval between the points that form the grid; and the standard deviation of the Gaussian noise related to the distance measurements, considered as a constant value for all the points in the positioning volume, because the coverage of an ultrasonic location system is reduced.</p>
+        <p>For each evaluated position in the grid, the PDOP value is obtained according to Equation (2):<disp-formula id="FD2-sensors-22-01038"><label>(2)</label><mml:math id="mm2" display="block"><mml:semantics><mml:mrow><mml:mi>P</mml:mi><mml:mi>D</mml:mi><mml:mi>O</mml:mi><mml:mi>P</mml:mi><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:msqrt><mml:mrow><mml:msubsup><mml:mi>&#x3C3;</mml:mi><mml:mi>x</mml:mi><mml:mn>2</mml:mn></mml:msubsup><mml:mo>+</mml:mo><mml:msubsup><mml:mi>&#x3C3;</mml:mi><mml:mi>y</mml:mi><mml:mn>2</mml:mn></mml:msubsup><mml:mo>+</mml:mo><mml:msubsup><mml:mi>&#x3C3;</mml:mi><mml:mi>z</mml:mi><mml:mn>2</mml:mn></mml:msubsup></mml:mrow></mml:msqrt></mml:mrow><mml:mrow><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mi>m</mml:mi></mml:msub></mml:mrow></mml:mfrac></mml:mrow></mml:semantics></mml:math></disp-formula>
+        where <inline-formula><mml:math id="mm3"><mml:semantics><mml:mrow><mml:msubsup><mml:mi>&#x3C3;</mml:mi><mml:mi>x</mml:mi><mml:mn>2</mml:mn></mml:msubsup></mml:mrow></mml:semantics></mml:math></inline-formula>, <inline-formula><mml:math id="mm4"><mml:semantics><mml:mrow><mml:msubsup><mml:mi>&#x3C3;</mml:mi><mml:mi>y</mml:mi><mml:mn>2</mml:mn></mml:msubsup></mml:mrow></mml:semantics></mml:math></inline-formula> and <inline-formula><mml:math id="mm5"><mml:semantics><mml:mrow><mml:msubsup><mml:mi>&#x3C3;</mml:mi><mml:mi>z</mml:mi><mml:mn>2</mml:mn></mml:msubsup></mml:mrow></mml:semantics></mml:math></inline-formula> are the values of the covariance matrix <inline-formula><mml:math id="mm6"><mml:semantics><mml:mstyle mathvariant="bold" mathsize="normal"><mml:mi>C</mml:mi></mml:mstyle></mml:semantics></mml:math></inline-formula>, which is obtained according to Equation (3); and <inline-formula><mml:math id="mm7"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mi>m</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> is the standard deviation of the Gaussian noise related to measurements.
+        <disp-formula id="FD3-sensors-22-01038"><label>(3)</label><mml:math id="mm8" display="block"><mml:semantics><mml:mrow><mml:mstyle mathvariant="bold" mathsize="normal"><mml:mi>C</mml:mi></mml:mstyle><mml:mo>=</mml:mo><mml:msubsup><mml:mi>&#x3C3;</mml:mi><mml:mi>m</mml:mi><mml:mn>2</mml:mn></mml:msubsup><mml:mo>&#xA0;</mml:mo><mml:mo>&#xB7;</mml:mo><mml:mo>&#xA0;</mml:mo><mml:msup><mml:mrow><mml:mfenced><mml:mrow><mml:msup><mml:mstyle mathvariant="bold" mathsize="normal"><mml:mi>J</mml:mi></mml:mstyle><mml:mstyle mathvariant="bold" mathsize="normal"><mml:mi>T</mml:mi></mml:mstyle></mml:msup><mml:mo>&#xB7;</mml:mo><mml:mstyle mathvariant="bold" mathsize="normal"><mml:mi>J</mml:mi></mml:mstyle></mml:mrow></mml:mfenced></mml:mrow><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msup></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+        <p>The Jacobian matrix <inline-formula><mml:math id="mm9"><mml:semantics><mml:mstyle mathvariant="bold" mathsize="normal"><mml:mi>J</mml:mi></mml:mstyle></mml:semantics></mml:math></inline-formula> is obtained according to Equation (4):<disp-formula id="FD4-sensors-22-01038"><label>(4)</label><mml:math id="mm10" display="block"><mml:semantics><mml:mrow><mml:mstyle mathvariant="bold" mathsize="normal"><mml:mi>J</mml:mi></mml:mstyle><mml:mo>=</mml:mo><mml:mfenced><mml:mrow><mml:mtable equalrows="true" equalcolumns="true"><mml:mtr><mml:mtd><mml:mrow><mml:mfrac><mml:mrow><mml:mo>&#x2202;</mml:mo><mml:msub><mml:mi>f</mml:mi><mml:mn>1</mml:mn></mml:msub></mml:mrow><mml:mrow><mml:mo>&#x2202;</mml:mo><mml:mi>x</mml:mi></mml:mrow></mml:mfrac></mml:mrow></mml:mtd><mml:mtd><mml:mrow><mml:mfrac><mml:mrow><mml:mo>&#x2202;</mml:mo><mml:msub><mml:mi>f</mml:mi><mml:mn>1</mml:mn></mml:msub></mml:mrow><mml:mrow><mml:mo>&#x2202;</mml:mo><mml:mi>y</mml:mi></mml:mrow></mml:mfrac></mml:mrow></mml:mtd><mml:mtd><mml:mrow><mml:mfrac><mml:mrow><mml:mo>&#x2202;</mml:mo><mml:msub><mml:mi>f</mml:mi><mml:mn>1</mml:mn></mml:msub></mml:mrow><mml:mrow><mml:mo>&#x2202;</mml:mo><mml:mi>z</mml:mi></mml:mrow></mml:mfrac></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow><mml:mfrac><mml:mrow><mml:mo>&#x2202;</mml:mo><mml:msub><mml:mi>f</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:mrow><mml:mrow><mml:mo>&#x2202;</mml:mo><mml:mi>x</mml:mi></mml:mrow></mml:mfrac></mml:mrow></mml:mtd><mml:mtd><mml:mrow><mml:mfrac><mml:mrow><mml:mo>&#x2202;</mml:mo><mml:msub><mml:mi>f</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:mrow><mml:mrow><mml:mo>&#x2202;</mml:mo><mml:mi>y</mml:mi></mml:mrow></mml:mfrac></mml:mrow></mml:mtd><mml:mtd><mml:mrow><mml:mfrac><mml:mrow><mml:mo>&#x2202;</mml:mo><mml:msub><mml:mi>f</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:mrow><mml:mrow><mml:mo>&#x2202;</mml:mo><mml:mi>z</mml:mi></mml:mrow></mml:mfrac></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mo>&#x22EF;</mml:mo></mml:mtd><mml:mtd><mml:mo>&#x22EF;</mml:mo></mml:mtd><mml:mtd><mml:mo>&#x22EF;</mml:mo></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow><mml:mfrac><mml:mrow><mml:mo>&#x2202;</mml:mo><mml:msub><mml:mi>f</mml:mi><mml:mi>n</mml:mi></mml:msub></mml:mrow><mml:mrow><mml:mo>&#x2202;</mml:mo><mml:mi>x</mml:mi></mml:mrow></mml:mfrac></mml:mrow></mml:mtd><mml:mtd><mml:mrow><mml:mfrac><mml:mrow><mml:mo>&#x2202;</mml:mo><mml:msub><mml:mi>f</mml:mi><mml:mi>n</mml:mi></mml:msub></mml:mrow><mml:mrow><mml:mo>&#x2202;</mml:mo><mml:mi>y</mml:mi></mml:mrow></mml:mfrac></mml:mrow></mml:mtd><mml:mtd><mml:mrow><mml:mfrac><mml:mrow><mml:mo>&#x2202;</mml:mo><mml:msub><mml:mi>f</mml:mi><mml:mi>n</mml:mi></mml:msub></mml:mrow><mml:mrow><mml:mo>&#x2202;</mml:mo><mml:mi>z</mml:mi></mml:mrow></mml:mfrac></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:mfenced></mml:mrow></mml:semantics></mml:math></disp-formula>
+        where <inline-formula><mml:math id="mm11"><mml:semantics><mml:mrow><mml:msub><mml:mi>f</mml:mi><mml:mi>n</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> is the <inline-formula><mml:math id="mm12"><mml:semantics><mml:mrow><mml:msup><mml:mi>n</mml:mi><mml:mrow><mml:mi>t</mml:mi><mml:mi>h</mml:mi></mml:mrow></mml:msup></mml:mrow></mml:semantics></mml:math></inline-formula> measurement from the <inline-formula><mml:math id="mm13"><mml:semantics><mml:mrow><mml:mi>n</mml:mi><mml:mrow><mml:mi mathvariant="normal">t</mml:mi><mml:mi mathvariant="normal">h</mml:mi></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula> beacon, represented either by the Euclidean distance between the position of the receiver and the <inline-formula><mml:math id="mm14"><mml:semantics><mml:mrow><mml:mi>n</mml:mi><mml:mrow><mml:mi mathvariant="normal">t</mml:mi><mml:mi mathvariant="normal">h</mml:mi></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula> beacon in the spherical case (assuming that emitters and receivers are synchronized) shown in Equation (5), or by the difference in Euclidean distances shown in Equation (6), using one emitter as a reference, in the case in which there is no synchronization between emitters and the receiver (hyperbolic solution).<disp-formula id="FD5-sensors-22-01038"><label>(5)</label><mml:math id="mm37" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>f</mml:mi><mml:mi>n</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:msqrt><mml:mrow><mml:msup><mml:mrow><mml:mfenced><mml:mrow><mml:mi>x</mml:mi><mml:mo>&#x2212;</mml:mo><mml:msub><mml:mi>x</mml:mi><mml:mi>n</mml:mi></mml:msub></mml:mrow></mml:mfenced></mml:mrow><mml:mn>2</mml:mn></mml:msup><mml:mo>+</mml:mo><mml:msup><mml:mrow><mml:mfenced><mml:mrow><mml:mi>y</mml:mi><mml:mo>&#x2212;</mml:mo><mml:msub><mml:mi>y</mml:mi><mml:mi>n</mml:mi></mml:msub></mml:mrow></mml:mfenced></mml:mrow><mml:mn>2</mml:mn></mml:msup><mml:mo>+</mml:mo><mml:msup><mml:mrow><mml:mfenced><mml:mrow><mml:mi>z</mml:mi><mml:mo>&#x2212;</mml:mo><mml:msub><mml:mi>z</mml:mi><mml:mi>n</mml:mi></mml:msub></mml:mrow></mml:mfenced></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:msqrt></mml:mrow></mml:semantics></mml:math></disp-formula>
+        <disp-formula id="FD6-sensors-22-01038"><label>(6)</label><mml:math id="mm38" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>f</mml:mi><mml:mi>n</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:msqrt><mml:mrow><mml:msup><mml:mrow><mml:mfenced><mml:mrow><mml:mi>x</mml:mi><mml:mo>&#x2212;</mml:mo><mml:msub><mml:mi>x</mml:mi><mml:mi>n</mml:mi></mml:msub></mml:mrow></mml:mfenced></mml:mrow><mml:mn>2</mml:mn></mml:msup><mml:mo>+</mml:mo><mml:msup><mml:mrow><mml:mfenced><mml:mrow><mml:mi>y</mml:mi><mml:mo>&#x2212;</mml:mo><mml:msub><mml:mi>y</mml:mi><mml:mi>n</mml:mi></mml:msub></mml:mrow></mml:mfenced></mml:mrow><mml:mn>2</mml:mn></mml:msup><mml:mo>+</mml:mo><mml:msup><mml:mrow><mml:mfenced><mml:mrow><mml:mi>z</mml:mi><mml:mo>&#x2212;</mml:mo><mml:msub><mml:mi>z</mml:mi><mml:mi>n</mml:mi></mml:msub></mml:mrow></mml:mfenced></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:msqrt><mml:mo>&#x2212;</mml:mo><mml:msqrt><mml:mrow><mml:msup><mml:mrow><mml:mfenced><mml:mrow><mml:mi>x</mml:mi><mml:mo>&#x2212;</mml:mo><mml:msub><mml:mi>x</mml:mi><mml:mi>n</mml:mi></mml:msub></mml:mrow></mml:mfenced></mml:mrow><mml:mn>2</mml:mn></mml:msup><mml:mo>+</mml:mo><mml:msup><mml:mrow><mml:mfenced><mml:mrow><mml:mi>y</mml:mi><mml:mo>&#x2212;</mml:mo><mml:msub><mml:mi>y</mml:mi><mml:mi>n</mml:mi></mml:msub></mml:mrow></mml:mfenced></mml:mrow><mml:mn>2</mml:mn></mml:msup><mml:mo>+</mml:mo><mml:msup><mml:mrow><mml:mfenced><mml:mrow><mml:mi>z</mml:mi><mml:mo>&#x2212;</mml:mo><mml:msub><mml:mi>z</mml:mi><mml:mi>n</mml:mi></mml:msub></mml:mrow></mml:mfenced></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:msqrt></mml:mrow></mml:semantics></mml:math></disp-formula>
+        where <inline-formula><mml:math id="mm39"><mml:semantics><mml:mrow><mml:mfrac><mml:mrow><mml:mo>&#x2202;</mml:mo><mml:msub><mml:mi>f</mml:mi><mml:mi>n</mml:mi></mml:msub></mml:mrow><mml:mrow><mml:mo>&#x2202;</mml:mo><mml:mi>x</mml:mi></mml:mrow></mml:mfrac></mml:mrow></mml:semantics></mml:math></inline-formula>, <inline-formula><mml:math id="mm40"><mml:semantics><mml:mrow><mml:mfrac><mml:mrow><mml:mo>&#x2202;</mml:mo><mml:msub><mml:mi>f</mml:mi><mml:mi>n</mml:mi></mml:msub></mml:mrow><mml:mrow><mml:mo>&#x2202;</mml:mo><mml:mi>y</mml:mi></mml:mrow></mml:mfrac></mml:mrow></mml:semantics></mml:math></inline-formula> and <inline-formula><mml:math id="mm41"><mml:semantics><mml:mrow><mml:mfrac><mml:mrow><mml:mo>&#x2202;</mml:mo><mml:msub><mml:mi>f</mml:mi><mml:mi>n</mml:mi></mml:msub></mml:mrow><mml:mrow><mml:mo>&#x2202;</mml:mo><mml:mi>z</mml:mi></mml:mrow></mml:mfrac></mml:mrow></mml:semantics></mml:math></inline-formula> are de derivatives of the <inline-formula><mml:math id="mm42"><mml:semantics><mml:mrow><mml:mi>n</mml:mi><mml:mrow><mml:mi mathvariant="normal">t</mml:mi><mml:mi mathvariant="normal">h</mml:mi></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula> measurement with respect to the coordinates of the receiver.</p>
+        <p><xref ref-type="fig" rid="sensors-22-01038-f007">Figure 7</xref> shows a PDOP simulation for the spherical case (a) and the hyperbolic case (b), setting the area under analysis in the XY plane with a 6 m long side, with a resolution grid of 0.10 m, and a receiver&#x2019;s height of 1 m. Note that the example uses the same UIPS configuration as the online demonstrator, which is formed by five beacons placed at a height of 348 cm in a 70.7 cm &#xD7; 70.7 cm square, and which have been represented with a white rhombus in <xref ref-type="fig" rid="sensors-22-01038-f007">Figure 7</xref>. This distribution is also the one used by default in the simulator.</p>
+        <p>As can be observed in <xref ref-type="fig" rid="sensors-22-01038-f007">Figure 7</xref>, the lowest values of PDOP in both cases are in the center of the area, so in these locations the uncertainty related to the estimation of the receiver&#x2019;s position is reduced in comparison with corners, where the PDOP values are high. Another consideration to take into account is that the uncertainty is higher in the hyperbolic case than in the spherical case; nevertheless, the hyperbolic case has the advantage of not requiring synchronization between the emitters and the receiver.</p>
+      </sec>
+      <sec id="sec4dot2-sensors-22-01038">
+        <title>4.2. aymanzazy49@gmail.com</title>
+        <p><xref ref-type="fig" rid="sensors-22-01038-f008">Figure 8</xref> shows a screenshot of the software for the scene configuration, where the position and model of the receiver can be selected, in addition to the sampling frequency at the reception. Thus, a downsampling factor can be simulated to consider the case in which the acquisition system has memory constraints.</p>
+      </sec>
+      <sec id="sec4dot3-sensors-22-01038">
+        <title>4.3. aymanzazy49@gmail.com</title>
+        <p>The channel model considered hereinafter is based on applying the widely used ray tracing [<xref ref-type="bibr" rid="B57-sensors-22-01038">57</xref>,<xref ref-type="bibr" rid="B58-sensors-22-01038">58</xref>] to randomly model the multipath effect coming from an indoor environment, resulting in detecting multiple copies of the beacons&#x2019; transmission at the receiver. Together with this ray tracing, the CODEUS platform also allows a set of typical effects in air positioning systems to be inserted, such as Gaussian and impulsive noise, temperature, atmospheric absorption, and Doppler effect. All these parameters can be observed in <xref ref-type="fig" rid="sensors-22-01038-f009">Figure 9</xref>. The beacons transmit their corresponding modulated signal <italic>m<sub>k</sub></italic>(<italic>t</italic>) that will be affected by the transducer response <inline-formula><mml:math id="mm15"><mml:semantics><mml:mrow><mml:msub><mml:mi>T</mml:mi><mml:mi>h</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> and the noise <inline-formula><mml:math id="mm16"><mml:semantics><mml:mrow><mml:mi>&#x3B7;</mml:mi><mml:mfenced><mml:mi>t</mml:mi></mml:mfenced></mml:mrow></mml:semantics></mml:math></inline-formula>. At the reception, all the signals coming from the beacons are received, each with its corresponding propagation delay <inline-formula><mml:math id="mm17"><mml:semantics><mml:mrow><mml:msub><mml:mi>t</mml:mi><mml:mrow><mml:msub><mml:mi>p</mml:mi><mml:mi>k</mml:mi></mml:msub></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>, transmission delay <inline-formula><mml:math id="mm18"><mml:semantics><mml:mrow><mml:msub><mml:mi>t</mml:mi><mml:mrow><mml:msub><mml:mi>t</mml:mi><mml:mi>k</mml:mi></mml:msub></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> due to the multiple access technique, and attenuation <inline-formula><mml:math id="mm19"><mml:semantics><mml:mrow><mml:msub><mml:mi>A</mml:mi><mml:mi>k</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>, as indicated in Equation (7).
+        <disp-formula id="FD7-sensors-22-01038"><label>(7)</label><mml:math id="mm20" display="block"><mml:semantics><mml:mrow><mml:mi>r</mml:mi><mml:mfenced><mml:mi>t</mml:mi></mml:mfenced><mml:mo>&#xA0;</mml:mo><mml:mo>=</mml:mo><mml:mo>&#xA0;</mml:mo><mml:munderover><mml:mstyle mathsize="140%" displaystyle="true"><mml:mo>&#x2211;</mml:mo></mml:mstyle><mml:mrow><mml:mi>k</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:msub><mml:mi>K</mml:mi><mml:mrow/></mml:msub></mml:mrow></mml:munderover><mml:msub><mml:mi>A</mml:mi><mml:mi>k</mml:mi></mml:msub><mml:mo>&#x22C5;</mml:mo><mml:mfenced close="]" open="["><mml:mrow><mml:msub><mml:mi>T</mml:mi><mml:mi>h</mml:mi></mml:msub><mml:mfenced><mml:mi>t</mml:mi></mml:mfenced><mml:mo>&#xA0;</mml:mo><mml:mo>&#x2217;</mml:mo><mml:mo>&#xA0;</mml:mo><mml:msub><mml:mi>m</mml:mi><mml:mi>k</mml:mi></mml:msub><mml:mfenced><mml:mrow><mml:mi>t</mml:mi><mml:mo>&#x2212;</mml:mo><mml:msub><mml:mi>t</mml:mi><mml:mrow><mml:msub><mml:mi>p</mml:mi><mml:mi>k</mml:mi></mml:msub></mml:mrow></mml:msub><mml:mo>&#x2212;</mml:mo><mml:msub><mml:mi>t</mml:mi><mml:mrow><mml:msub><mml:mi>t</mml:mi><mml:mi>k</mml:mi></mml:msub></mml:mrow></mml:msub></mml:mrow></mml:mfenced></mml:mrow></mml:mfenced><mml:mo>+</mml:mo><mml:mi>&#x3B7;</mml:mi><mml:mfenced><mml:mi>t</mml:mi></mml:mfenced></mml:mrow></mml:semantics></mml:math></disp-formula>
+        where the operator <inline-formula><mml:math id="mm21"><mml:semantics><mml:mo>&#x2217;</mml:mo></mml:semantics></mml:math></inline-formula> denotes the convolution and the index 1 &#x2264; <italic>k</italic> &#x2264; <italic>K</italic> indicates the number of the emitter. Note that, in a CDMA scheme, all the emitters transmit simultaneously, so <inline-formula><mml:math id="mm22"><mml:semantics><mml:mrow><mml:msub><mml:mi>t</mml:mi><mml:mrow><mml:msub><mml:mi>t</mml:mi><mml:mi>k</mml:mi></mml:msub></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:semantics></mml:math></inline-formula>; by comparison, in TCDMA schemes, an emitter transmits during a specific slot time that is modeled by this parameter <inline-formula><mml:math id="mm23"><mml:semantics><mml:mrow><mml:msub><mml:mi>t</mml:mi><mml:mrow><mml:msub><mml:mi>t</mml:mi><mml:mi>k</mml:mi></mml:msub></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>.</p>
+        <p>The White Gaussian Noise (AWGN) added to the emitted signal considers the energy measured from the modulated signal to insert white noise and accomplish the desired Signal to Noise Ratio (SNR) value. If the impulsive noise is also selected, then three parameters must be fulfilled: the SNR (normally smaller than the Gaussian noise), the duration of the noise specified as a percentage of the signal duration, and its location over time.</p>
+        <p>Another interesting effect involved here is the multipath, related to the multiple delayed and attenuated replicas of the transmitted signal that reach the receiver due to the specular reflections from walls and objects. The simulation platform allows three configuration options: Manual, where one delay (in ms) and gain per emitted signal is considered; a Random option that inserts two randomly delayed multipaths, with a gain exponentially attenuated according to the value of the delay; and a more Realistic option that considers the impulse response of the room through the image method described in [<xref ref-type="bibr" rid="B35-sensors-22-01038">35</xref>,<xref ref-type="bibr" rid="B57-sensors-22-01038">57</xref>].</p>
+        <p>The estimated ToAs or TDoAs depend on the distance between the emitter and the receiver, and on the propagation speed of sound in air, which is influenced by the temperature [<xref ref-type="bibr" rid="B59-sensors-22-01038">59</xref>] as follows:<disp-formula id="FD8-sensors-22-01038"><label>(8)</label><mml:math id="mm24" display="block"><mml:semantics><mml:mrow><mml:mi>c</mml:mi><mml:mo>=</mml:mo><mml:msub><mml:mi>c</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mo>&#x22C5;</mml:mo><mml:msqrt><mml:mrow><mml:mn>1</mml:mn><mml:mo>+</mml:mo><mml:mfrac><mml:mrow><mml:mi>T</mml:mi><mml:mfenced close="]" open="["><mml:mrow><mml:mo>&#xB0;</mml:mo><mml:mi mathvariant="normal">C</mml:mi></mml:mrow></mml:mfenced></mml:mrow><mml:mrow><mml:mn>273.15</mml:mn></mml:mrow></mml:mfrac></mml:mrow></mml:msqrt></mml:mrow></mml:semantics></mml:math></disp-formula>
+        where <inline-formula><mml:math id="mm25"><mml:semantics><mml:mrow><mml:msub><mml:mi>c</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mo>=</mml:mo><mml:mn>331.6</mml:mn><mml:mo>&#xA0;</mml:mo><mml:mi mathvariant="normal">m</mml:mi><mml:mo>/</mml:mo><mml:mi mathvariant="normal">s</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> is the speed at 0 &#xB0;C and <inline-formula><mml:math id="mm26"><mml:semantics><mml:mi>T</mml:mi></mml:semantics></mml:math></inline-formula> is the air temperature. The CODEUS platform also considers the atmospheric absorption in dB/m, which depends on the temperature, atmospheric pressure, and humidity. </p>
+        <p>Finally, the Doppler shift related to the relative movement between the receiver and the beacons is also considered. This effect is modeled by assuming a virtual sampling frequency <inline-formula><mml:math id="mm27"><mml:semantics><mml:mrow><mml:msubsup><mml:mi>f</mml:mi><mml:mi>s</mml:mi><mml:mo>&#xB4;</mml:mo></mml:msubsup></mml:mrow></mml:semantics></mml:math></inline-formula> for the emitted signal as follows [<xref ref-type="bibr" rid="B45-sensors-22-01038">45</xref>]:<disp-formula id="FD9-sensors-22-01038"><label>(9)</label><mml:math id="mm28" display="block"><mml:semantics><mml:mrow><mml:msubsup><mml:mi>f</mml:mi><mml:mi>s</mml:mi><mml:mo>&#xB4;</mml:mo></mml:msubsup><mml:mo>=</mml:mo><mml:msub><mml:mi>f</mml:mi><mml:mi>s</mml:mi></mml:msub><mml:mfenced close="]" open=""><mml:mrow><mml:mfenced close="" open="["><mml:mrow><mml:mn>1</mml:mn><mml:mo>&#x2212;</mml:mo><mml:mfrac><mml:mrow><mml:mover accent="true"><mml:mrow><mml:msub><mml:mi>v</mml:mi><mml:mi>r</mml:mi></mml:msub></mml:mrow><mml:mo stretchy="true">&#x2192;</mml:mo></mml:mover></mml:mrow><mml:mi>c</mml:mi></mml:mfrac></mml:mrow></mml:mfenced></mml:mrow></mml:mfenced></mml:mrow></mml:semantics></mml:math></disp-formula>
+        where <inline-formula><mml:math id="mm29"><mml:semantics><mml:mrow><mml:mover accent="true"><mml:mrow><mml:msub><mml:mi>v</mml:mi><mml:mi>r</mml:mi></mml:msub></mml:mrow><mml:mo stretchy="true">&#x2192;</mml:mo></mml:mover></mml:mrow></mml:semantics></mml:math></inline-formula> is the receiver velocity vector. The signal acquired by the receiver at the actual sampling frequency <inline-formula><mml:math id="mm30"><mml:semantics><mml:mrow><mml:msub><mml:mi>f</mml:mi><mml:mi>s</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> is obtained by an interpolation and decimation process.</p>
+      </sec>
+      <sec id="sec4dot4-sensors-22-01038">
+        <title>4.4. aymanzazy49@gmail.com</title>
+        <p>The proposed platform allows the position of the receiver to be estimated using two possible methods: Gauss&#x2013;Newton (GN) [<xref ref-type="bibr" rid="B60-sensors-22-01038">60</xref>] or Cayley&#x2013;Menger (CM) [<xref ref-type="bibr" rid="B61-sensors-22-01038">61</xref>] in the spherical case; and GN in the hyperbolic case. The GN method is based on the use of the Jacobian matrix shown in Equation (4) to solve the position of the receiver, by finding a minimum value of the vector <inline-formula><mml:math id="mm31"><mml:semantics><mml:mrow><mml:mo mathvariant="bold">&#x2206;</mml:mo><mml:mstyle mathvariant="bold" mathsize="normal"><mml:mi>X</mml:mi></mml:mstyle></mml:mrow></mml:semantics></mml:math></inline-formula>, as a result of an iterative process.
+        <disp-formula id="FD10-sensors-22-01038"><label>(10)</label><mml:math id="mm32" display="block"><mml:semantics><mml:mrow><mml:mi mathvariant="bold">&#x2206;</mml:mi><mml:mstyle mathvariant="bold" mathsize="normal"><mml:mi>X</mml:mi></mml:mstyle><mml:mo>=</mml:mo><mml:msup><mml:mrow><mml:mfenced><mml:mrow><mml:msup><mml:mstyle mathvariant="bold" mathsize="normal"><mml:mi>J</mml:mi></mml:mstyle><mml:mstyle mathvariant="bold" mathsize="normal"><mml:mi>T</mml:mi></mml:mstyle></mml:msup><mml:mo>&#xA0;</mml:mo><mml:mo>&#xB7;</mml:mo><mml:mo>&#xA0;</mml:mo><mml:mstyle mathvariant="bold" mathsize="normal"><mml:mi>J</mml:mi></mml:mstyle></mml:mrow></mml:mfenced></mml:mrow><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msup><mml:mo>&#xA0;</mml:mo><mml:mo>&#xB7;</mml:mo><mml:mo>&#xA0;</mml:mo><mml:msup><mml:mstyle mathvariant="bold" mathsize="normal"><mml:mi>J</mml:mi></mml:mstyle><mml:mstyle mathvariant="bold" mathsize="normal"><mml:mi>T</mml:mi></mml:mstyle></mml:msup><mml:mo>&#xA0;</mml:mo><mml:mo>&#xB7;</mml:mo><mml:mo>&#xA0;</mml:mo><mml:mstyle mathvariant="bold" mathsize="normal"><mml:mi>B</mml:mi></mml:mstyle></mml:mrow></mml:semantics></mml:math></disp-formula>
+        where <inline-formula><mml:math id="mm33"><mml:semantics><mml:mstyle mathvariant="bold" mathsize="normal"><mml:mi>B</mml:mi></mml:mstyle></mml:semantics></mml:math></inline-formula> is a vector of the differences between the measurements (distances or difference of distances) and the estimation of those measurements for each algorithm iteration (Equation (11)).
+        <disp-formula id="FD11-sensors-22-01038"><label>(11)</label><mml:math id="mm34" display="block"><mml:semantics><mml:mrow><mml:mi>B</mml:mi><mml:mo>=</mml:mo><mml:mfenced><mml:mrow><mml:mtable equalrows="true" equalcolumns="true"><mml:mtr><mml:mtd><mml:mrow><mml:msub><mml:mover accent="true"><mml:mi>f</mml:mi><mml:mo stretchy="false">^</mml:mo></mml:mover><mml:mn>1</mml:mn></mml:msub><mml:mo>&#x2212;</mml:mo><mml:msub><mml:mi>f</mml:mi><mml:mn>1</mml:mn></mml:msub></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow><mml:msub><mml:mover accent="true"><mml:mi>f</mml:mi><mml:mo stretchy="false">^</mml:mo></mml:mover><mml:mn>2</mml:mn></mml:msub><mml:mo>&#x2212;</mml:mo><mml:msub><mml:mi>f</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mo>&#x22EF;</mml:mo></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow><mml:msub><mml:mover accent="true"><mml:mi>f</mml:mi><mml:mo stretchy="false">^</mml:mo></mml:mover><mml:mi>n</mml:mi></mml:msub><mml:mo>&#x2212;</mml:mo><mml:msub><mml:mi>f</mml:mi><mml:mi>n</mml:mi></mml:msub></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:mfenced></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+        <p>In the case of the CM method, the estimation of the position is based on the use of Cayley&#x2013;Menger determinants [<xref ref-type="bibr" rid="B62-sensors-22-01038">62</xref>], so the solution is geometric. Here, the number of emitters used must be constant and set at four for 3D position estimation. This method is more complex than the previous one; further details can be found in [<xref ref-type="bibr" rid="B61-sensors-22-01038">61</xref>].</p>
+        <p>It is important to note that the positioning algorithm uses the measured distances after a filter at the correlation phase (before obtaining the distances from the ToAs or TDoAs measurements). This filter discards measurements strongly affected by the multipath: it identifies the highest correlation peak and sets a configurable validation window around this main peak. A threshold defined by the user is also considered to identify more peaks. If any peak appears outside of the validation window and exceeds the threshold, the measurement from that beacon is discarded; see <xref ref-type="fig" rid="sensors-22-01038-f010">Figure 10</xref> as an example of the mentioned filter. More flexibility regarding the peak detection algorithm will be included in the future to deal with multipath situations [<xref ref-type="bibr" rid="B63-sensors-22-01038">63</xref>]. </p>
+      </sec>
+      <sec id="sec4dot5-sensors-22-01038">
+        <title>4.5. aymanzazy49@gmail.com</title>
+        <p>When comparing the performance of various encoding schemes at the different stages of the processing, several features may be analyzed, not only at a low level with the properties of the emitted codes in the baseband, but also at high level with the positioning results. Regarding the correlation functions, the simulator provides the Sidelobe-to-Mainlobe Ratio (SMR), which is the ratio between the maximum value measured outside the modulation window of the mainlobe over the peak value of the mainlobe. This is a common merit factor in CDMA-based systems [<xref ref-type="bibr" rid="B35-sensors-22-01038">35</xref>,<xref ref-type="bibr" rid="B45-sensors-22-01038">45</xref>] and can be used as a measurement of the difficulty to detect the correct correlation peak in order to estimate the ToA or TDoA. It can be defined as follows: <disp-formula id="FD12-sensors-22-01038"><label>(12)</label><mml:math id="mm35" display="block"><mml:semantics><mml:mrow><mml:mi>SMR</mml:mi><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mi>max</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mi>C</mml:mi><mml:mrow><mml:mi>r</mml:mi><mml:mo>,</mml:mo><mml:msub><mml:mi>m</mml:mi><mml:mi>k</mml:mi></mml:msub><mml:mfenced close="]" open="["><mml:mi>n</mml:mi></mml:mfenced></mml:mrow></mml:msub><mml:mo stretchy="false">)</mml:mo><mml:mo>;</mml:mo><mml:mo>&#xA0;</mml:mo><mml:mfenced close="}" open="{"><mml:mrow><mml:mo>&#x2200;</mml:mo><mml:mi>n</mml:mi><mml:mo>&#xA0;</mml:mo><mml:mo>&#x2209;</mml:mo><mml:mfenced close="}" open="{"><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:msub><mml:mi>N</mml:mi><mml:mi>G</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:mo>&#xA0;</mml:mo><mml:msub><mml:mi>N</mml:mi><mml:mi>G</mml:mi></mml:msub></mml:mrow></mml:mfenced></mml:mrow></mml:mfenced></mml:mrow><mml:mrow><mml:mi>max</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mi>C</mml:mi><mml:mrow><mml:mi>r</mml:mi><mml:mo>,</mml:mo><mml:msub><mml:mi>m</mml:mi><mml:mi>k</mml:mi></mml:msub><mml:mfenced close="]" open="["><mml:mi>n</mml:mi></mml:mfenced></mml:mrow></mml:msub><mml:mo stretchy="false">)</mml:mo><mml:mo>;</mml:mo><mml:mfenced close="}" open="{"><mml:mrow><mml:mo>&#x2200;</mml:mo><mml:mi>n</mml:mi></mml:mrow></mml:mfenced></mml:mrow></mml:mfrac></mml:mrow></mml:semantics></mml:math></disp-formula>
+        where <inline-formula><mml:math id="mm36"><mml:semantics><mml:mrow><mml:msub><mml:mi>C</mml:mi><mml:mrow><mml:mi>r</mml:mi><mml:mo>,</mml:mo><mml:msub><mml:mi>m</mml:mi><mml:mi>k</mml:mi></mml:msub></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> represents the correlation between the received signal <italic>r</italic>[<italic>n</italic>] and the modulated code <italic>m<sub>k</sub></italic>[<italic>n</italic>]; <italic>N<sub>G</sub></italic> delimits the modulation window around the mainlobe used to avoid confusing the maximum sidelobe with the lobes corresponding to the modulation effect.</p>
+        <p>This SMR is also applied to study the goodness of codes in the baseband and after modulation, but with no channel or transmission effects; therefore, it can be divided into two merit factors: the auto-correlation bound and the cross-correlation bound. The first provides the ratio between the maximum sidelobe of the auto-correlation function and the main peak, whereas the cross-correlation bound is a measure of how two different codes are related, and is computed as the highest cross-correlation sidelobe compared with the main auto-correlation peak. In all cases, low SMR and correlation bounds are desired to clearly identify the time of arrival in the emission.</p>
+        <p><xref ref-type="fig" rid="sensors-22-01038-f011">Figure 11</xref> shows an example of the simulation platform, where different low-level parameters are displayed. In the example, the auto correlation and cross correlation of three 63-bit BPSK modulated Kasami codes are plotted, so it is possible to compare their performance in terms of correlation bounds and frequency spectrum with other family codes, and to study the differences in the case of periodic or aperiodic emission. In addition, the platform offers the correlation results after the modulation, with and without considering the transducers&#x2019; effects.</p>
+        <p>The correlation results involving all the effects (beacons and receiver location, transmission method, model of the transducers, and channel effects) are also displayed. The platform shows the mean value and typical deviation of the SMR for every emitter considering the number of realizations in the simulation, as can be observed in <xref ref-type="fig" rid="sensors-22-01038-f012">Figure 12</xref>.</p>
+        <p>Finally, positioning results are also presented. It is possible to choose between spherical and hyperbolic trilateration; the number of repetitions at the selected point are configurable to obtain significant statistical information, in addition to the maximum allowed error (if this error is exceeded, the measurement is considered as an outlier). The delay defined between the transducers&#x2019; emissions can be compensated for if desired. The platform provides the resulting number of outliers, the mean and standard deviation of the positioning estimates for each coordinate, and the Cumulative Distribution Function (CDF) of the Euclidian distance to the beacons, also per coordinate. The position estimates are depicted in the graph, together with the beacon distribution, as can be observed in <xref ref-type="fig" rid="sensors-22-01038-f013">Figure 13</xref>. It is worth mentioning that other positioning techniques, such as triangulation or hybrids, can be considered and included in CODEUS for further analysis.</p>
+      </sec>
+    </sec>
+    <sec id="sec5-sensors-22-01038">
+      <title>5.aymanzazy49@gmail.com</title>
+      <p>The CODEUS online demonstrator is a remotely accessible and configurable UIPS that consists of three main blocks. First, a server allows remote access from any client to upload the configuration to be tested on the experimental demonstrator. Furthermore, this server manages a beacon unit based on a Field-Programmable Gate Array (FPGA) device and five ultrasonic transducers (E1&#x2013;E5), and is thus flexible enough to implement the different required encoding and modulation schemes, and then drive the transducers. Finally, the same server also handles four receiving modules (R1&#x2013;R4), which are in charge of acquiring the ultrasonic signals at some particular points in the environment where they have been placed.</p>
+      <p>The CODEUS online demonstrator has been deployed in a lab environment at the School of Engineering from the University of Alcala, as can be observed in <xref ref-type="fig" rid="sensors-22-01038-f014">Figure 14</xref>. On the left, there is a general view of the experimental setup, denoting the beacon unit in the ceiling and the four receivers (R1&#x2013;R4) in the environment. It is worth mentioning that, whereas the receiver R1 is on the top of a pole at a height of 1.34 m, the other receivers R2&#x2013;R4 lie on the ground, mainly close to some furniture, which make those positions interesting from the point of view of the propagation of ultrasounds, as they are affected by multipath. Note that the origin of the coordinates of the whole setup is fixed at the projection of beacon E1 on the ground. <xref ref-type="table" rid="sensors-22-01038-t002">Table 2</xref> provides the full coordinates of the five beacons (E1&#x2013;E5) and the four receivers in this experimental setup.</p>
+      <p>The server provides the clients with a user-friendly interface, specified in html and php, via the HTTP protocol, so users can upload their own configuration for the five ultrasonic transmissions [<xref ref-type="bibr" rid="B64-sensors-22-01038">64</xref>]. In this manner, it is possible to set up sequences, modulation schemes, and the repetition interval between successive transmissions. The server deals with a SQL database, by running php scripts, so the submitted configurations are stored and scheduled for their later download in the experimental setup. This download process is carried out by means of a WiFi connection between the server and the beacon unit mentioned above. This WiFi link is used by the server to open a socket and send the information to the beacon unit, again by running the corresponding php scripts. At the scheduled instant, the beacon unit starts the configured transmissions, whereas the server also manages the receiving modules to acquire the corresponding incoming signals through some USB links. These receptions will be finally uploaded to the cloud and a notification mail will be sent to the client to inform that the experimental results for their configuration are already available. Note that all the tasks developed by the server to deal with the database, the beacon unit, the receiving modules, and the cloud are implemented with php scripts. <xref ref-type="fig" rid="sensors-22-01038-f015">Figure 15</xref> shows the general block diagram of the server in the CODEUS online demonstrator.</p>
+      <p>With regard to the beacon unit, this module is based on a FPGA device and five Prowave 328ST160 ultrasonic emitters, as previously described in [<xref ref-type="bibr" rid="B65-sensors-22-01038">65</xref>]. <xref ref-type="fig" rid="sensors-22-01038-f016">Figure 16</xref> depicts the general block diagram of this beacon unit, and a scheme of the distribution of the five transducers <italic>E<sub>i</sub></italic> in the beacon unit. The System-on-Chip (SoC) architecture implemented in the FPGA controls the WiFi link with the server, so it can receive configurations for the transducers&#x2019; emissions, and, afterwards, drive them suitably by means of a digital-analog converter (DAC) and an amplifier. For that purpose, an advanced specific peripheral was designed to cooperate with the ARM processor. Finally, an infrared synchronism module can be addressed by the peripheral to generate a common synchronism signal that can reach the receivers and synchronize acquisitions, in order to consider spherical positioning algorithms later.</p>
+      <p>The last part of the experimental setup of the CODEUS online demonstrator is the receiving module, whose general block diagram can be observed in <xref ref-type="fig" rid="sensors-22-01038-f017">Figure 17</xref> [<xref ref-type="bibr" rid="B23-sensors-22-01038">23</xref>]. This is based on the omnidirectional MEMS microphone SPU0414HR5H-SB (the beam divergence angle is about 180&#xB0; @ &#x2212;3 dB) that matches the emitters&#x2019; bandwidth around 41.67 kHz, and an analog-digital converter (ADC) together with a high-pass filter to discard audible frequencies that might saturate the ADC input and any aliasing effect. The converter is actually part of the STM32F103 processor unit, so it is in charge of sampling the incoming signals at 100 kHz. This acquisition can be synchronized with the beacons using the IR link available for that purpose. The receiver is capable of recording a data buffer with a length of 100 ms, which is uploaded to the server via the existing USB link.</p>
+    </sec>
+    <sec id="sec6-sensors-22-01038">
+      <title>6. aymanzazy49@gmail.com</title>
+      <p>As a case study, this section presents some results in the particular UIPS developed in the online demonstrator, whose architectures and functionalities are described in <xref ref-type="sec" rid="sec5-sensors-22-01038">Section 5</xref>. In order to achieve a fair comparison between simulated and experimental results, the experiments shown here with the CODEUS online demonstrator were conducted under the same configuration scheme. In this manner, 255-bit Kasami codes were involved in the transmission encoding, with a BPSK modulation with two carrier periods at a frequency <italic>f<sub>c</sub></italic> = 41.67 kHz. One hundred acquisitions were carried out, where successive transmissions of the same beacon were separated by an interval of 100 ms and a CDMA protocol was considered, that is, all beacons transmitting simultaneously.</p>
+      <p>First, <xref ref-type="fig" rid="sensors-22-01038-f018">Figure 18</xref> depicts some simulated results for the test point corresponding to R1 (see <xref ref-type="table" rid="sensors-22-01038-t002">Table 2</xref>), where the upper plot represents the modeled received signal and the middle plot shows the correlation functions of that incoming signal with the codes emitted by each beacon <italic>E<sub>i</sub></italic>. For clarity&#x2019;s sake, the last plot shows a zoom of those correlation functions, where the ToAs are determined by the maximum values from the mentioned correlation functions. <xref ref-type="fig" rid="sensors-22-01038-f018">Figure 18</xref> can be compared with <xref ref-type="fig" rid="sensors-22-01038-f019">Figure 19</xref>, obtained from the experimental tests with the online demonstrator. Note that in the experimental tests, the maximum peaks indicating the ToA of the signals emitted by E2 and E5 appear to be overlapped, unlike in the simulated results, due to inaccuracies in the determination of coordinates for point R1 in the experimental scenario. In general terms, the simulated results offer lower SMR than the experimental tests carried out, so the main peaks after correlation can be better identified. This may be caused by the simplified model used to simulate the multipath, where not all of the multipath due to the furniture in the laboratory is considered, and by the fact that the experimental tests may encompass other effects that are not included in the simulation model. </p>
+      <p><xref ref-type="fig" rid="sensors-22-01038-f020">Figure 20</xref> shows the simulated and experimental results corresponding to the clouds of estimated positions obtained for the measurement points R1 and R3, whose coordinates are shown in <xref ref-type="table" rid="sensors-22-01038-t002">Table 2</xref>. Both in the simulated and experimental tests, a spherical Gauss&#x2013;Newton algorithm was used to obtain the estimated positions [<xref ref-type="bibr" rid="B60-sensors-22-01038">60</xref>]. Note that these two points were selected because R1 is a favorable case, close to the beacons and inside the common coverage area from the five beacons, whereas R3 is a challenging point, further away and with a strong influence from multipath. As can be observed, consequently, the cloud of points for R1 presents a lower dispersion (apart from a couple of outliers in the real tests in <xref ref-type="fig" rid="sensors-22-01038-f020">Figure 20</xref>c, likely due to a wrong determination of TDoAs on the experimental signals). Furthermore, <xref ref-type="fig" rid="sensors-22-01038-f021">Figure 21</xref> shows the error CDF for both clouds of points, both in simulation and in experimental tests, where it is possible to observe that results at R1 present lower errors than at R3. In the experimental tests, 90% of measurements present a positioning error below 10 cm for R1 and below 35 cm for R3, whereas in the simulation results, errors differ by one order of magnitude. As before, the simplified model used for the simulation of the multipath in this particular environment is likely the reason for this difference, because the simulation platform does not consider the different reflectors existing in the real environment (furniture, walls, etc.) that make the situation more complex. This model should be extended in future works, in a similar manner to [<xref ref-type="bibr" rid="B35-sensors-22-01038">35</xref>], where an image method for simulating small-room acoustics is considered. Another relevant aspect in experimental tests is that the Automatic Controlled Gain (ACG) of the receiver (see <xref ref-type="fig" rid="sensors-22-01038-f017">Figure 17</xref>) is required to be tuned, because the microphone voltage input is saturated in some acquisitions (see <xref ref-type="fig" rid="sensors-22-01038-f019">Figure 19</xref>).</p>
+    </sec>
+    <sec id="sec7-sensors-22-01038" sec-type="conclusions">
+      <title>7. aymanzazy49@gmail.com</title>
+      <p>This paper presented the CODEUS platform, a new tool that includes a highly configurable UIPS software model that is complemented with an online demonstrator. The simulator allows the study of the effect of the signal design (encoding and modulation), beacon distribution, transducers, channel effects, or the type of positioning (spherical or hyperbolic) on the correlation of the received signals and on the positioning estimates. These influences can be studied and analyzed independently for each parameter, either using the options predefined in the platform, or by incorporating customized setups. This theoretical analysis can be easily extended, by exporting the configuration to the experimental demonstrator, where the simulated results can be verified in a real environment. This CODEUS online demonstrator (freely available online: <uri>http://www3.uah.es/locate-us/</uri> (accessed on 23 December 2021)) is a remotely accessible and configurable UIPS that allows different encoding and medium access techniques to be tested under the same conditions, easily enabling experimental tests to be carried out. Thus, the signal design can be configured with the simulation platform and real acquisitions for testing purposes can be obtained through the online demonstrator.</p>
+      <p>One of possible future extensions of the CODEUS platform is providing users with a means to integrate their own processing algorithms into the simulation platform, thus making it possible to compare the performance of different peak detectors or multipath cancellation algorithms, among others. Another aspect is the sensor fusion with other technologies, such as inertial measurements commonly available in most commercial portable devices, which can be integrated with the ultrasonic measurements by applying a Kalman filter or a particle filter. Moreover, due to the utility of acoustic signals in underwater localization of vehicles and/or sensor networks, and the challenge of deploying experimental prototypes, it is expected the tool will be extended to underwater positioning systems. Although some aspects will remain the same, such as the emission configuration, others related to the channel model require further adaptations to include the underwater propagation acoustic model, bathymetry of the seabed, temperature profile, speed of wind, water density, etc. </p>
+    </sec>
+  </body>
+  <back>
+    <notes>
+      <title>aymanzazy49@gmail.com</title>
+      <p>M.C.P.-R.: conceptualization, methodology and supervision of the CODEUS simulation platform. D.G.-G.: programmed the initial algorithms related to the localization methods, supervised and validated the simulation platform. S.M.: developed the software algorithms related to the first stages in the CODEUS simulation platform. J.V.-R.: programmed the CODEUS simulation user-friendly interface; &#xC1;.H.: conceptualization and supervision of the online demonstrator and the beacon unit. F.C.-F. and R.N.: developed the software related to the online demonstrator. J.M.V. developed the acquisition module. M.C.P.-R. and &#xC1;.H.: writing, reviewing and editing. All authors have read and agreed to the published version of the manuscript.</p>
+    </notes>
+    <notes>
+      <title>aymanzazy49@gmail.com</title>
+      <p>This work has been possible thanks to the Community of Madrid (CODEUS, ref. CM/JIN/2019-043; RACC CM/JIN/2021-016), Youth Employment Support Guarantee (ref. PEJ-2018-AI/TIC-11833) and the Spanish Ministry of Science, Innovation and Universities (PoM, PID2019-105470RA-C33).</p>
+    </notes>
+    <notes notes-type="COI-statement">
+      <title>aymanzazy49@gmail.com</title>
+      <p>The authors declare no conflict of interest.</p>
+    </notes>
+    <ref-list>
+      <title>aymanzazy49@gmail.com</title>
+      <ref id="B1-sensors-22-01038">
+        <label>1.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Spachos</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Plataniotis</surname>
+              <given-names>K.N.</given-names>
+            </name>
+          </person-group>
+          <article-title>aymanzazy49@gmail.com</article-title>
+          <source>IEEE Syst. J.</source>
+          <year>2020</year>
+          <volume>14</volume>
+          <fpage>3483</fpage>
+          <lpage>3493</lpage>
+          <pub-id pub-id-type="doi">10.1109/JSYST.2020.2969088</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B2-sensors-22-01038">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fleck</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Frid</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Kindberg</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>O&#x2019;Brien-Strain</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Rajani</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Spasojevic</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>aymanzazy49@gmail.com</article-title>
+          <source>IEEE Pervasive Comput.</source>
+          <year>2002</year>
+          <volume>1</volume>
+          <fpage>13</fpage>
+          <lpage>21</lpage>
+          <pub-id pub-id-type="doi">10.1109/MPRV.2002.1012333</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3-sensors-22-01038">
+        <label>3.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Joshi</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Hiwale</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Birajdar</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Gound</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>aymanzazy49@gmail.com</article-title>
+          <source>ICCCE 2019, Oxford, UK, 8&#x2013;10 November 2019</source>
+          <publisher-name>Lecture Notes in Electrical Engineering; Springer</publisher-name>
+          <publisher-loc>Singapore</publisher-loc>
+          <year>2019</year>
+          <fpage>159</fpage>
+          <lpage>165</lpage>
+          <pub-id pub-id-type="doi">10.1007/978-981-13-8715-9_20</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4-sensors-22-01038">
+        <label>4.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Renaudin</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Ortiz</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Perul</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Torres-Sospedra</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Jimenez</surname>
+              <given-names>A.R.</given-names>
+            </name>
+            <name>
+              <surname>Perez-Navarro</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Mendoza-Silva</surname>
+              <given-names>G.M.</given-names>
+            </name>
+            <name>
+              <surname>Seco</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Landau</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Marbel</surname>
+              <given-names>R.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>aymanzazy49@gmail.com</article-title>
+          <source>IEEE Access</source>
+          <year>2019</year>
+          <volume>7</volume>
+          <fpage>148594</fpage>
+          <lpage>148628</lpage>
+          <pub-id pub-id-type="doi">10.1109/ACCESS.2019.2944389</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5-sensors-22-01038">
+        <label>5.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Montoliu</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Sansano</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Gasc&#xF3;</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Belmonte</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Caballer</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>aymanzazy49@gmail.com</article-title>
+          <source>Electronics</source>
+          <year>2020</year>
+          <volume>9</volume>
+          <elocation-id>728</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/electronics9050728</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6-sensors-22-01038">
+        <label>6.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Molina</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Olivares</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Palau</surname>
+              <given-names>C.E.</given-names>
+            </name>
+            <name>
+              <surname>Esteve</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>aymanzazy49@gmail.com</article-title>
+          <source>IEEE Access</source>
+          <year>2018</year>
+          <volume>6</volume>
+          <fpage>10092</fpage>
+          <lpage>10106</lpage>
+          <pub-id pub-id-type="doi">10.1109/ACCESS.2018.2798918</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7-sensors-22-01038">
+        <label>7.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fischer</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Gellersen</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>aymanzazy49@gmail.com</article-title>
+          <source>IEEE Pervasive Comput.</source>
+          <year>2009</year>
+          <volume>9</volume>
+          <fpage>38</fpage>
+          <lpage>47</lpage>
+          <pub-id pub-id-type="doi">10.1109/MPRV.2009.91</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8-sensors-22-01038">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Poulose</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Eyobu</surname>
+              <given-names>O.S.</given-names>
+            </name>
+            <name>
+              <surname>Han</surname>
+              <given-names>D.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>aymanzazy49@gmail.com</article-title>
+          <source>IEEE Access</source>
+          <year>2019</year>
+          <volume>7</volume>
+          <fpage>11165</fpage>
+          <lpage>11177</lpage>
+          <pub-id pub-id-type="doi">10.1109/ACCESS.2019.2891942</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9-sensors-22-01038">
+        <label>9.</label>
+        <element-citation publication-type="confproc">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mautz</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Tilch</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>aymanzazy49@gmail.com</article-title>
+          <source>Proceedings of the 2011 International Conference on Indoor Positioning and Indoor Navigation</source>
+          <conf-loc>Guimaraes, Portugal</conf-loc>
+          <conf-date>21&#x2013;23 September 2011</conf-date>
+          <fpage>1</fpage>
+          <lpage>7</lpage>
+          <pub-id pub-id-type="doi">10.1109/ipin.2011.6071925</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B10-sensors-22-01038">
+        <label>10.</label>
+        <element-citation publication-type="confproc">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Gallagher</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Dempster</surname>
+              <given-names>A.G.</given-names>
+            </name>
+            <name>
+              <surname>Rizos</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>aymanzazy49@gmail.com</article-title>
+          <source>Proceedings of the 2012 International Conference on Indoor Positioning and Indoor Navigation (IPIN)</source>
+          <conf-loc>Sydney, Australia</conf-loc>
+          <conf-date>13&#x2013;15 November 2012</conf-date>
+          <publisher-name>IEEE</publisher-name>
+          <publisher-loc>New York, NY, USA</publisher-loc>
+          <year>2012</year>
+          <fpage>1</fpage>
+          <lpage>9</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B11-sensors-22-01038">
+        <label>11.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ozdemir</surname>
+              <given-names>B.N.</given-names>
+            </name>
+            <name>
+              <surname>Ceylan</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>aymanzazy49@gmail.com</article-title>
+          <source>Measurement</source>
+          <year>2020</year>
+          <volume>163</volume>
+          <fpage>107997</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.measurement.2020.107997</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B12-sensors-22-01038">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sanchez</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>de Castro</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Elvira</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>de Rivera</surname>
+              <given-names>G.G.</given-names>
+            </name>
+            <name>
+              <surname>Garrido</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>aymanzazy49@gmail.com</article-title>
+          <source>Measurement</source>
+          <year>2012</year>
+          <volume>45</volume>
+          <fpage>276</fpage>
+          <lpage>283</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.measurement.2011.12.002</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B13-sensors-22-01038">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pascale</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Adinolfi</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Avagliano</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Giannella</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Salas</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>aymanzazy49@gmail.com</article-title>
+          <source>Appl. Sci.</source>
+          <year>2021</year>
+          <volume>11</volume>
+          <elocation-id>4902</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/app11114902</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B14-sensors-22-01038">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kwon</surname>
+              <given-names>S.-G.</given-names>
+            </name>
+            <name>
+              <surname>Kwon</surname>
+              <given-names>O.-J.</given-names>
+            </name>
+            <name>
+              <surname>Kwon</surname>
+              <given-names>K.-R.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>S.-H.</given-names>
+            </name>
+          </person-group>
+          <article-title>aymanzazy49@gmail.com</article-title>
+          <source>Appl. Sci.</source>
+          <year>2021</year>
+          <volume>11</volume>
+          <elocation-id>8826</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/app11198826</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B15-sensors-22-01038">
+        <label>15.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Alarifi</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Al-Salman</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Alsaleh</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Alnafessah</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Al-Hadhrami</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Al-Ammar</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Al-Khalifa</surname>
+              <given-names>H.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>aymanzazy49@gmail.com</article-title>
+          <source>Sensors</source>
+          <year>2016</year>
+          <volume>16</volume>
+          <elocation-id>707</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/s16050707</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B16-sensors-22-01038">
+        <label>16.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Brena</surname>
+              <given-names>R.F.</given-names>
+            </name>
+            <name>
+              <surname>Garc&#xED;a-V&#xE1;zquez</surname>
+              <given-names>J.P.</given-names>
+            </name>
+            <name>
+              <surname>Galv&#xE1;n-Tejada</surname>
+              <given-names>C.E.</given-names>
+            </name>
+            <name>
+              <surname>Mu&#xF1;oz-Rodriguez</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Vargas-Rosales</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Fangmeyer</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>aymanzazy49@gmail.com</article-title>
+          <source>J. Sens.</source>
+          <year>2017</year>
+          <volume>2017</volume>
+          <fpage>2630413</fpage>
+          <pub-id pub-id-type="doi">10.1155/2017/2630413</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B17-sensors-22-01038">
+        <label>17.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zafari</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Gkelias</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Leung</surname>
+              <given-names>K.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>aymanzazy49@gmail.com</article-title>
+          <source>IEEE Commun. Surv. Tutor.</source>
+          <year>2019</year>
+          <volume>21</volume>
+          <fpage>2568</fpage>
+          <lpage>2599</lpage>
+          <pub-id pub-id-type="doi">10.1109/COMST.2019.2911558</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B18-sensors-22-01038">
+        <label>18.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mendoza-Silva</surname>
+              <given-names>G.M.</given-names>
+            </name>
+            <name>
+              <surname>Torres-Sospedra</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Huerta</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>aymanzazy49@gmail.com</article-title>
+          <source>Sensors</source>
+          <year>2019</year>
+          <volume>19</volume>
+          <elocation-id>4507</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/s19204507</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B19-sensors-22-01038">
+        <label>19.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xing</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Zhu</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Pan</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Feng</surname>
+              <given-names>X.</given-names>
+            </name>
+          </person-group>
+          <article-title>aymanzazy49@gmail.com</article-title>
+          <source>Sensors</source>
+          <year>2018</year>
+          <volume>18</volume>
+          <elocation-id>1706</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/s18061706</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B20-sensors-22-01038">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bahillo</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Aguilera</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>&#xC1;lvarez</surname>
+              <given-names>F.J.</given-names>
+            </name>
+            <name>
+              <surname>Perallos</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>aymanzazy49@gmail.com</article-title>
+          <source>Wirel. Pers. Commun.</source>
+          <year>2016</year>
+          <volume>94</volume>
+          <fpage>2949</fpage>
+          <lpage>2967</lpage>
+          <pub-id pub-id-type="doi">10.1007/s11277-016-3759-x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B21-sensors-22-01038">
+        <label>21.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xia</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Xiu</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>aymanzazy49@gmail.com</article-title>
+          <source>Sensors</source>
+          <year>2019</year>
+          <volume>19</volume>
+          <elocation-id>364</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/s19020364</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B22-sensors-22-01038">
+        <label>22.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kalman</surname>
+              <given-names>R.E.</given-names>
+            </name>
+          </person-group>
+          <article-title>aymanzazy49@gmail.com</article-title>
+          <source>J. Basic Eng.</source>
+          <year>1960</year>
+          <volume>82</volume>
+          <fpage>35</fpage>
+          <lpage>45</lpage>
+          <pub-id pub-id-type="doi">10.1115/1.3662552</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B23-sensors-22-01038">
+        <label>23.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Urena</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Hernandez</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Garcia</surname>
+              <given-names>J.J.</given-names>
+            </name>
+            <name>
+              <surname>Villadangos</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Perez</surname>
+              <given-names>M.C.</given-names>
+            </name>
+            <name>
+              <surname>Gualda</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Alvarez</surname>
+              <given-names>F.J.</given-names>
+            </name>
+            <name>
+              <surname>Aguilera</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>aymanzazy49@gmail.com</article-title>
+          <source>Proc. IEEE</source>
+          <year>2018</year>
+          <volume>106</volume>
+          <fpage>1042</fpage>
+          <lpage>1062</lpage>
+          <pub-id pub-id-type="doi">10.1109/JPROC.2018.2819938</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B24-sensors-22-01038">
+        <label>24.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Aparicio</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Aguilera</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Alvarez</surname>
+              <given-names>F.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>aymanzazy49@gmail.com</article-title>
+          <source>IEEE Sens. J.</source>
+          <year>2020</year>
+          <volume>20</volume>
+          <fpage>13119</fpage>
+          <lpage>13130</lpage>
+          <pub-id pub-id-type="doi">10.1109/JSEN.2020.3003523</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B25-sensors-22-01038">
+        <label>25.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gualda</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>P&#xE9;rez-Rubio</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Ure&#xF1;a</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>P&#xE9;rez-Bachiller</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Villadangos</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Hern&#xE1;ndez</surname>
+              <given-names>&#xC1;.</given-names>
+            </name>
+            <name>
+              <surname>Garc&#xED;a</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Jim&#xE9;nez</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>aymanzazy49@gmail.com</article-title>
+          <source>Sensors</source>
+          <year>2021</year>
+          <volume>21</volume>
+          <elocation-id>1950</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/s21061950</pub-id>
+          <pub-id pub-id-type="pmid">33802216</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B26-sensors-22-01038">
+        <label>26.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Garc&#xED;a</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Paredes</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>Alvarez</surname>
+              <given-names>F.J.</given-names>
+            </name>
+            <name>
+              <surname>P&#xE9;rez</surname>
+              <given-names>M.C.</given-names>
+            </name>
+            <name>
+              <surname>Garc&#xED;a</surname>
+              <given-names>J.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>aymanzazy49@gmail.com</article-title>
+          <source>Signal Process.</source>
+          <year>2015</year>
+          <volume>106</volume>
+          <fpage>88</fpage>
+          <lpage>105</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.sigpro.2014.07.002</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B27-sensors-22-01038">
+        <label>27.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Deng</surname>
+              <given-names>Z.D.</given-names>
+            </name>
+            <name>
+              <surname>Rauchenstein</surname>
+              <given-names>L.T.</given-names>
+            </name>
+            <name>
+              <surname>Carlson</surname>
+              <given-names>T.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>aymanzazy49@gmail.com</article-title>
+          <source>Rev. Sci. Instrum.</source>
+          <year>2016</year>
+          <volume>87</volume>
+          <fpage>041502</fpage>
+          <pub-id pub-id-type="doi">10.1063/1.4947001</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B28-sensors-22-01038">
+        <label>28.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nazlibilek</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>aymanzazy49@gmail.com</article-title>
+          <source>Measurement</source>
+          <year>2012</year>
+          <volume>45</volume>
+          <fpage>938</fpage>
+          <lpage>949</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.measurement.2012.01.050</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B29-sensors-22-01038">
+        <label>29.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>P&#xE9;rez-Rubio</surname>
+              <given-names>M.C.</given-names>
+            </name>
+            <name>
+              <surname>Losada-Guti&#xE9;rrez</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Espinosa</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Macias-Guarasa</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Tiemann</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Eckermann</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Wietfeld</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Katkov</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Huba</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Ure&#xF1;a</surname>
+              <given-names>J.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>aymanzazy49@gmail.com</article-title>
+          <source>Measurement</source>
+          <year>2018</year>
+          <volume>135</volume>
+          <fpage>151</fpage>
+          <lpage>162</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.measurement.2018.11.018</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B30-sensors-22-01038">
+        <label>30.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Urrea</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Saa</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>aymanzazy49@gmail.com</article-title>
+          <source>Appl. Sci.</source>
+          <year>2020</year>
+          <volume>10</volume>
+          <elocation-id>6770</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/app10196770</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B31-sensors-22-01038">
+        <label>31.</label>
+        <element-citation publication-type="confproc">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jankowski</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Nikodem</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>aymanzazy49@gmail.com</article-title>
+          <source>Proceedings of the 2018 International Conference on Indoor Positioning and Indoor Navigation (IPIN)</source>
+          <conf-loc>Nantes, France</conf-loc>
+          <conf-date>24&#x2013;27 September 2018</conf-date>
+          <fpage>206</fpage>
+          <lpage>212</lpage>
+          <pub-id pub-id-type="doi">10.1109/ipin.2018.8533754</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B32-sensors-22-01038">
+        <label>32.</label>
+        <element-citation publication-type="confproc">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Amiot</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Laaraiedh</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Uguen</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>aymanzazy49@gmail.com</article-title>
+          <source>Proceedings of the 2013 IEEE International Conference on Communications Workshops (ICC)</source>
+          <conf-loc>Budapest, Hungary</conf-loc>
+          <conf-date>9&#x2013;13 June 2013</conf-date>
+          <fpage>84</fpage>
+          <lpage>88</lpage>
+          <pub-id pub-id-type="doi">10.1109/iccw.2013.6649206</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B33-sensors-22-01038">
+        <label>33.</label>
+        <element-citation publication-type="web">
+          <article-title>aymanzazy49@gmail.com</article-title>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://deustotech.github.io/navindoor-documentation/" ext-link-type="uri">https://deustotech.github.io/navindoor-documentation/</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2020-07-23">(accessed on 23 July 2020)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B34-sensors-22-01038">
+        <label>34.</label>
+        <element-citation publication-type="confproc">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Young</surname>
+              <given-names>A.D.</given-names>
+            </name>
+            <name>
+              <surname>Ling</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>Arvind</surname>
+              <given-names>D.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>aymanzazy49@gmail.com</article-title>
+          <source>Proceedings of the 10th ACM/IEEE International Conference on Information Processing in Sensor Networks</source>
+          <conf-loc>Chicago, IL, USA</conf-loc>
+          <conf-date>12&#x2013;14 April 2011</conf-date>
+          <fpage>199</fpage>
+          <lpage>210</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B35-sensors-22-01038">
+        <label>35.</label>
+        <element-citation publication-type="confproc">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Alvarez</surname>
+              <given-names>F.J.</given-names>
+            </name>
+            <name>
+              <surname>Aguilera</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Fernandez</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>Moreno</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>Gordillo</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>aymanzazy49@gmail.com</article-title>
+          <source>Proceedings of the 2010 International Conference on Indoor Positioning and Indoor Navigation</source>
+          <conf-loc>Zurich, Switzerland</conf-loc>
+          <conf-date>15&#x2013;17 September 2010</conf-date>
+          <fpage>1</fpage>
+          <lpage>5</lpage>
+          <pub-id pub-id-type="doi">10.1109/ipin.2010.5648230</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B36-sensors-22-01038">
+        <label>36.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Widodo</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Shiigi</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Hayashi</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Kikuchi</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Yanagida</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Nakatsuchi</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Ogawa</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Kondo</surname>
+              <given-names>N.</given-names>
+            </name>
+          </person-group>
+          <article-title>aymanzazy49@gmail.com</article-title>
+          <source>Robotics</source>
+          <year>2013</year>
+          <volume>2</volume>
+          <fpage>36</fpage>
+          <lpage>53</lpage>
+          <pub-id pub-id-type="doi">10.3390/robotics2020036</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B37-sensors-22-01038">
+        <label>37.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Moreno</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>&#xC1;lvarez</surname>
+              <given-names>F.J.</given-names>
+            </name>
+            <name>
+              <surname>Aguilera</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Paredes</surname>
+              <given-names>J.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>aymanzazy49@gmail.com</article-title>
+          <source>Sensors</source>
+          <year>2019</year>
+          <volume>19</volume>
+          <elocation-id>1385</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/s19061385</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B38-sensors-22-01038">
+        <label>38.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tseng</surname>
+              <given-names>C.-C.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>aymanzazy49@gmail.com</article-title>
+          <source>IEEE Trans. Inf. Theory</source>
+          <year>1972</year>
+          <volume>18</volume>
+          <fpage>644</fpage>
+          <lpage>652</lpage>
+          <pub-id pub-id-type="doi">10.1109/TIT.1972.1054860</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B39-sensors-22-01038">
+        <label>39.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rubio</surname>
+              <given-names>M.C.P.</given-names>
+            </name>
+            <name>
+              <surname>Serrano</surname>
+              <given-names>R.S.</given-names>
+            </name>
+            <name>
+              <surname>Urena</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Alonso</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>De Marziani</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Franco</surname>
+              <given-names>F.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>aymanzazy49@gmail.com</article-title>
+          <source>IEEE Sens. J.</source>
+          <year>2012</year>
+          <volume>12</volume>
+          <fpage>2807</fpage>
+          <lpage>2816</lpage>
+          <pub-id pub-id-type="doi">10.1109/JSEN.2012.2204046</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B40-sensors-22-01038">
+        <label>40.</label>
+        <element-citation publication-type="confproc">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Stanczak</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Boche</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Haardt</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>aymanzazy49@gmail.com</article-title>
+          <pub-id pub-id-type="doi">10.1109/glocom.2001.965185</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B41-sensors-22-01038">
+        <label>41.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Isla</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>Cegla</surname>
+              <given-names>F.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>aymanzazy49@gmail.com</article-title>
+          <source>Proc. R. Soc. A Math. Phys. Eng. Sci.</source>
+          <year>2019</year>
+          <volume>475</volume>
+          <fpage>20180831</fpage>
+          <pub-id pub-id-type="doi">10.1098/rspa.2018.0831</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B42-sensors-22-01038">
+        <label>42.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Paredes</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>Aguilera</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>&#xC1;lvarez</surname>
+              <given-names>F.J.</given-names>
+            </name>
+            <name>
+              <surname>Lozano</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Morera</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>aymanzazy49@gmail.com</article-title>
+          <source>Sensors</source>
+          <year>2011</year>
+          <volume>11</volume>
+          <fpage>10765</fpage>
+          <lpage>10784</lpage>
+          <pub-id pub-id-type="doi">10.3390/s111110765</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B43-sensors-22-01038">
+        <label>43.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Khyam</surname>
+              <given-names>M.O.</given-names>
+            </name>
+            <name>
+              <surname>Rahim</surname>
+              <given-names>N.A.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Ritz</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Guan</surname>
+              <given-names>Y.L.</given-names>
+            </name>
+            <name>
+              <surname>Ge</surname>
+              <given-names>S.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>aymanzazy49@gmail.com</article-title>
+          <source>IEEE Sens. J.</source>
+          <year>2018</year>
+          <volume>18</volume>
+          <fpage>6375</fpage>
+          <lpage>6390</lpage>
+          <pub-id pub-id-type="doi">10.1109/JSEN.2018.2846481</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B44-sensors-22-01038">
+        <label>44.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chu</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>aymanzazy49@gmail.com</article-title>
+          <source>IEEE Trans. Inf. Theory</source>
+          <year>1972</year>
+          <volume>18</volume>
+          <fpage>531</fpage>
+          <lpage>532</lpage>
+          <pub-id pub-id-type="doi">10.1109/TIT.1972.1054840</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B45-sensors-22-01038">
+        <label>45.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Murano</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Perez-Rubio</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Gualda</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Alvarez</surname>
+              <given-names>F.J.</given-names>
+            </name>
+            <name>
+              <surname>Aguilera</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>De Marziani</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>aymanzazy49@gmail.com</article-title>
+          <source>IEEE Trans. Instrum. Meas.</source>
+          <year>2019</year>
+          <volume>69</volume>
+          <fpage>5356</fpage>
+          <lpage>5368</lpage>
+          <pub-id pub-id-type="doi">10.1109/TIM.2019.2959290</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B46-sensors-22-01038">
+        <label>46.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gonzalez</surname>
+              <given-names>J.R.</given-names>
+            </name>
+            <name>
+              <surname>Bleakley</surname>
+              <given-names>C.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>aymanzazy49@gmail.com</article-title>
+          <source>IEEE J. Sel. Top. Signal Process.</source>
+          <year>2009</year>
+          <volume>3</volume>
+          <fpage>832</fpage>
+          <lpage>844</lpage>
+          <pub-id pub-id-type="doi">10.1109/JSTSP.2009.2027795</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B47-sensors-22-01038">
+        <label>47.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Qi</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>G.-P.</given-names>
+            </name>
+          </person-group>
+          <article-title>aymanzazy49@gmail.com</article-title>
+          <source>Sensors</source>
+          <year>2017</year>
+          <volume>17</volume>
+          <elocation-id>2554</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/s17112554</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B48-sensors-22-01038">
+        <label>48.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Richard</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Rastiello</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Giry</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Riccardi</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Paredes</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Zafati</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Kakarla</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Lejouad</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>aymanzazy49@gmail.com</article-title>
+          <source>Adv. Eng. Softw.</source>
+          <year>2018</year>
+          <volume>128</volume>
+          <fpage>136</fpage>
+          <lpage>151</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.advengsoft.2018.08.016</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B49-sensors-22-01038">
+        <label>49.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Din</surname>
+              <given-names>M.M.U.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>aymanzazy49@gmail.com</article-title>
+          <source>Appl. Sci.</source>
+          <year>2020</year>
+          <volume>10</volume>
+          <elocation-id>5906</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/app10175906</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B50-sensors-22-01038">
+        <label>50.</label>
+        <element-citation publication-type="web">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kasami</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>aymanzazy49@gmail.com</article-title>
+          <year>1966</year>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.semanticscholar.org/paper/WEIGHT-DISTRIBUTION-FORMULA-FOR-SOME-CLASS-OF-CODES-Kasami/08ff549eb15fd2db8eedf5adcd7317223bcfffd3" ext-link-type="uri">https://www.semanticscholar.org/paper/WEIGHT-DISTRIBUTION-FORMULA-FOR-SOME-CLASS-OF-CODES-Kasami/08ff549eb15fd2db8eedf5adcd7317223bcfffd3</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2021-12-23">(accessed on 23 December 2021)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B51-sensors-22-01038">
+        <label>51.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Golay</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>aymanzazy49@gmail.com</article-title>
+          <source>IEEE Trans. Inf. Theory</source>
+          <year>1961</year>
+          <volume>7</volume>
+          <fpage>82</fpage>
+          <lpage>87</lpage>
+          <pub-id pub-id-type="doi">10.1109/TIT.1961.1057620</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B52-sensors-22-01038">
+        <label>52.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mow</surname>
+              <given-names>W.H.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>S.-Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>aymanzazy49@gmail.com</article-title>
+          <source>Electron. Lett.</source>
+          <year>1990</year>
+          <volume>26</volume>
+          <fpage>2068</fpage>
+          <lpage>2070</lpage>
+          <pub-id pub-id-type="doi">10.1109/iccs.1992.255063</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B53-sensors-22-01038">
+        <label>53.</label>
+        <element-citation publication-type="web">
+          <person-group person-group-type="author">
+            <collab>Pro-Wave Electronic Corp</collab>
+          </person-group>
+          <article-title>aymanzazy49@gmail.com</article-title>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.prowave.com.tw/english/products/ut/open-type/328s160.htm" ext-link-type="uri">http://www.prowave.com.tw/english/products/ut/open-type/328s160.htm</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2021-12-23">(accessed on 23 December 2021)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B54-sensors-22-01038">
+        <label>54.</label>
+        <element-citation publication-type="web">
+          <article-title>aymanzazy49@gmail.com</article-title>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.grasacoustics.com/products/product/158-40BE" ext-link-type="uri">https://www.grasacoustics.com/products/product/158-40BE</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2021-12-23">(accessed on 23 December 2021)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B55-sensors-22-01038">
+        <label>55.</label>
+        <element-citation publication-type="web">
+          <article-title>aymanzazy49@gmail.com</article-title>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://datasheet.octopart.com/SPU0414HR5H-SB-Knowles-Acoustics-datasheet-21203067.pdf" ext-link-type="uri">https://datasheet.octopart.com/SPU0414HR5H-SB-Knowles-Acoustics-datasheet-21203067.pdf</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2021-12-23">(accessed on 23 December 2021)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B56-sensors-22-01038">
+        <label>56.</label>
+        <element-citation publication-type="confproc">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kaune</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>aymanzazy49@gmail.com</article-title>
+          <source>In Proceedings of 2012 15th International Conference on Information Fusion</source>
+          <conf-loc>Singapore</conf-loc>
+          <conf-date>9&#x2013;12 July 2012</conf-date>
+          <fpage>408</fpage>
+          <lpage>415</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B57-sensors-22-01038">
+        <label>57.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Allen</surname>
+              <given-names>J.B.</given-names>
+            </name>
+            <name>
+              <surname>Berkley</surname>
+              <given-names>D.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>aymanzazy49@gmail.com</article-title>
+          <source>J. Acoust. Soc. Am.</source>
+          <year>1979</year>
+          <volume>65</volume>
+          <fpage>943</fpage>
+          <lpage>950</lpage>
+          <pub-id pub-id-type="doi">10.1121/1.382599</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B58-sensors-22-01038">
+        <label>58.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dickinson</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Hower</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Rigas</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Rockway</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>aymanzazy49@gmail.com</article-title>
+          <source>IEEE Trans. Geosci. Electron.</source>
+          <year>1972</year>
+          <volume>10</volume>
+          <fpage>166</fpage>
+          <lpage>172</lpage>
+          <pub-id pub-id-type="doi">10.1109/TGE.1972.271286</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B59-sensors-22-01038">
+        <label>59.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cramer</surname>
+              <given-names>O.</given-names>
+            </name>
+          </person-group>
+          <article-title>aymanzazy49@gmail.com</article-title>
+          <source>J. Acoust. Soc. Am.</source>
+          <year>1993</year>
+          <volume>93</volume>
+          <fpage>2510</fpage>
+          <lpage>2516</lpage>
+          <pub-id pub-id-type="doi">10.1121/1.405827</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B60-sensors-22-01038">
+        <label>60.</label>
+        <element-citation publication-type="confproc">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yan</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Tiberius</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Bellusci</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Janssen</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>aymanzazy49@gmail.com</article-title>
+          <source>Proceedings of the 2008 IEEE/ION Position, Location and Navigation Symposium</source>
+          <conf-loc>Monterey, CA, USA</conf-loc>
+          <conf-date>5&#x2013;8 May 2008</conf-date>
+          <fpage>660</fpage>
+          <lpage>670</lpage>
+          <pub-id pub-id-type="doi">10.1109/plans.2008.4569986</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B61-sensors-22-01038">
+        <label>61.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Thomas</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Ros</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>aymanzazy49@gmail.com</article-title>
+          <source>IEEE Trans. Robot.</source>
+          <year>2005</year>
+          <volume>21</volume>
+          <fpage>93</fpage>
+          <lpage>101</lpage>
+          <pub-id pub-id-type="doi">10.1109/TRO.2004.833793</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B62-sensors-22-01038">
+        <label>62.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>M&#xB4;laren</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <source>An Introduction to the Geometry of N Dimensions</source>
+          <publisher-name>Dover Publications</publisher-name>
+          <publisher-loc>Dover, UK</publisher-loc>
+          <year>1958</year>
+        </element-citation>
+      </ref>
+      <ref id="B63-sensors-22-01038">
+        <label>63.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Aguilera</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Alvarez</surname>
+              <given-names>F.J.</given-names>
+            </name>
+            <name>
+              <surname>Gualda</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Villadangos</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Hernandez</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Urena</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>aymanzazy49@gmail.com</article-title>
+          <source>IEEE Trans. Instrum. Meas.</source>
+          <year>2018</year>
+          <volume>67</volume>
+          <fpage>984</fpage>
+          <lpage>991</lpage>
+          <pub-id pub-id-type="doi">10.1109/TIM.2018.2794939</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B64-sensors-22-01038">
+        <label>64.</label>
+        <element-citation publication-type="confproc">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ciudad</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Hern&#xE1;ndez</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Gualda</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Aparicio-Esteve</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <article-title>aymanzazy49@gmail.com</article-title>
+          <source>Proceedings of the 2019 International Conference on Indoor Positioning and Indoor Navigation (IPIN)</source>
+          <conf-loc>Pisa, Italy</conf-loc>
+          <conf-date>2 October 2019</conf-date>
+          <fpage>1</fpage>
+          <lpage>8</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B65-sensors-22-01038">
+        <label>65.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hern&#xE1;ndez</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Garc&#xED;a</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Gualda</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Villadangos</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Nombela</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Ure&#xF1;a</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>aymanzazy49@gmail.com</article-title>
+          <source>IEEE Trans. Instrum. Meas.</source>
+          <year>1964</year>
+          <volume>66</volume>
+          <fpage>1954</fpage>
+          <lpage>1964</lpage>
+          <pub-id pub-id-type="doi">10.1109/TIM.2017.2682938</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>aymanzazy49@gmail.com</title>
+      <fig id="sensors-22-01038-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>General block diagram of the CODEUS platform: simulator and online demonstrator.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sensors-22-01038-g001.tif"/>
+      </fig>
+      <fig id="sensors-22-01038-f002" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>Example of emission configuration with five 255-bit Kasami codes modulated in BPSK with two carrier cycles at 41.67 kHz and a sampling frequency of 500 kHz.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sensors-22-01038-g002.tif"/>
+      </fig>
+      <fig id="sensors-22-01038-f003" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p>Correlation functions for those sequences considered in the CODEUS platform: (<bold>a</bold>) normalized periodic and (<bold>b</bold>) aperiodic correlation functions of Kasami sequences with length <italic>L<sub>Kas</sub></italic> = 63; (<bold>c</bold>) SACF and (<bold>d</bold>) SCCF for CSS with <italic>M<sub>CSS</sub></italic> = 2 and <italic>L<sub>CSS</sub></italic> = 64; (<bold>e</bold>) normalized aperiodic correlation function of LS sequences with length <italic>L<sub>LS</sub></italic> = 79 and Zero Correlation Zone around the origin <italic>ZCZ</italic> = 15; (<bold>f</bold>) normalized periodic and (<bold>g</bold>) aperiodic correlation function for Zadoff-Chu sequences with <italic>L<sub>ZC</sub></italic> = 61.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sensors-22-01038-g003.tif"/>
+      </fig>
+      <fig id="sensors-22-01038-f004" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <p>Effect of the BPSK modulation in the auto-correlation function of a 63-bit long Kasami code with <italic>f</italic><sub>c</sub> = 41.67 kHz, <italic>f</italic><sub>s</sub> = 12 and: (<bold>a</bold>) <italic>O</italic><sub>c</sub> = 2; (<bold>b</bold>) <italic>O</italic><sub>c</sub> = 4.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sensors-22-01038-g004.tif"/>
+      </fig>
+      <fig id="sensors-22-01038-f005" position="float">
+        <label>Figure 5</label>
+        <caption>
+          <p>328ST160 transducer frequency response, measured (red) and the FIR filter model (blue) [<xref ref-type="bibr" rid="B45-sensors-22-01038">45</xref>].</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sensors-22-01038-g005.tif"/>
+      </fig>
+      <fig id="sensors-22-01038-f006" position="float">
+        <label>Figure 6</label>
+        <caption>
+          <p>Configuration of the multiple emission scheme: (<bold>a</bold>) CDMA, (<bold>b</bold>) TCDMA (<italic>T<sub>shift</sub></italic> = <italic>T<sub>e</sub></italic>), and (<bold>c</bold>) TCDMA with configurable <italic>T<sub>shift</sub></italic>.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sensors-22-01038-g006.tif"/>
+      </fig>
+      <fig id="sensors-22-01038-f007" position="float">
+        <label>Figure 7</label>
+        <caption>
+          <p>Study of the PDOP considering a 6 m &#xD7; 6 m area in the XY plane, and five beacons placed at a height of 348 cm, in a 70.7 cm &#xD7; 70.7 cm square structure: (<bold>a</bold>) spherical; (<bold>b</bold>) hyperbolic.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sensors-22-01038-g007.tif"/>
+      </fig>
+      <fig id="sensors-22-01038-f008" position="float">
+        <label>Figure 8</label>
+        <caption>
+          <p>Example of a scene configuration in the simulator environment.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sensors-22-01038-g008.tif"/>
+      </fig>
+      <fig id="sensors-22-01038-f009" position="float">
+        <label>Figure 9</label>
+        <caption>
+          <p>Configuration of different channel phenomena in the CODEUS simulator environment.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sensors-22-01038-g009.tif"/>
+      </fig>
+      <fig id="sensors-22-01038-f010" position="float">
+        <label>Figure 10</label>
+        <caption>
+          <p>Example of a non-valid measurement after the peak detection algorithm.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sensors-22-01038-g010.tif"/>
+      </fig>
+      <fig id="sensors-22-01038-f011" position="float">
+        <label>Figure 11</label>
+        <caption>
+          <p>Auto-correlation and cross-correlation results for three 63-bit Kasami codes modulated in BPSK with two carrier cycles at 41.67 kHz and a sampling frequency of 500 kHz.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sensors-22-01038-g011.tif"/>
+      </fig>
+      <fig id="sensors-22-01038-f012" position="float">
+        <label>Figure 12</label>
+        <caption>
+          <p>Correlation results after the emission of five simultaneous 255-bit BPSK modulated codes with SNR = 5 dB.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sensors-22-01038-g012.tif"/>
+      </fig>
+      <fig id="sensors-22-01038-f013" position="float">
+        <label>Figure 13</label>
+        <caption>
+          <p>Positioning estimates obtained with 255-bit BPSK modulated codes with SNR = 5 dB, after 30 realizations.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sensors-22-01038-g013.tif"/>
+      </fig>
+      <fig id="sensors-22-01038-f014" position="float">
+        <label>Figure 14</label>
+        <caption>
+          <p>(<bold>a</bold>) General view of the experimental setup of the CODEUS online demonstrator, and (<bold>b</bold>) a scheme with the dimensions for that setup, where E1&#x2013;E5 are the emitters and R1&#x2013;R4 the receivers.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sensors-22-01038-g014.tif"/>
+      </fig>
+      <fig id="sensors-22-01038-f015" position="float">
+        <label>Figure 15</label>
+        <caption>
+          <p>General block diagram of the server designed for the CODEUS online demonstrator.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sensors-22-01038-g015.tif"/>
+      </fig>
+      <fig id="sensors-22-01038-f016" position="float">
+        <label>Figure 16</label>
+        <caption>
+          <p>General block diagram of the beacon unit involved in the CODEUS online demonstrator [<xref ref-type="bibr" rid="B65-sensors-22-01038">65</xref>].</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sensors-22-01038-g016.tif"/>
+      </fig>
+      <fig id="sensors-22-01038-f017" position="float">
+        <label>Figure 17</label>
+        <caption>
+          <p>General block diagram of the receiving module included in the CODEUS online demonstrator [<xref ref-type="bibr" rid="B23-sensors-22-01038">23</xref>].</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sensors-22-01038-g017.tif"/>
+      </fig>
+      <fig id="sensors-22-01038-f018" position="float">
+        <label>Figure 18</label>
+        <caption>
+          <p>Simulated results for point R1: (<bold>top</bold>) The received signal with SNR = 10 dB; (<bold>middle</bold>) the correlation functions between this incoming signal and the codes emitted by beacons <italic>E<sub>i</sub></italic>; (<bold>bottom</bold>) magnification of the area of interest, where the maximum values of those correlation functions can be observed.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sensors-22-01038-g018.tif"/>
+      </fig>
+      <fig id="sensors-22-01038-f019" position="float">
+        <label>Figure 19</label>
+        <caption>
+          <p>Experimental acquisition for point R1: the received signal (<bold>top</bold>); the correlation functions between this incoming signal and the codes emitted by beacons <italic>Ei</italic> (<bold>middle</bold>); and magnification of the area of interest, where the maximum values of those correlation functions can be observed (<bold>bottom</bold>).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sensors-22-01038-g019.tif"/>
+      </fig>
+      <fig id="sensors-22-01038-f020" position="float">
+        <label>Figure 20</label>
+        <caption>
+          <p>Clouds of position estimates: (<bold>a</bold>) simulated results for R1 with SNR = 10 dB; (<bold>b</bold>) simulated results for R3 with SNR = 10 dB; (<bold>c</bold>) experimental results for R1 and R3.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sensors-22-01038-g020.tif"/>
+      </fig>
+      <fig id="sensors-22-01038-f021" position="float">
+        <label>Figure 21</label>
+        <caption>
+          <p>Positioning error CDF: (<bold>a</bold>) simulated results at R1, with SNR = 10 dB; (<bold>b</bold>) simulated results at R3, with SNR = 10 dB; (<bold>c</bold>) simulated results at R1, with SNR = 0 dB; (<bold>d</bold>) simulated results at R3, with SNR = 0 dB; (<bold>e</bold>) experimental results.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sensors-22-01038-g021.tif"/>
+      </fig>
+      <table-wrap id="sensors-22-01038-t001" position="float">
+        <object-id pub-id-type="pii">sensors-22-01038-t001_Table 1</object-id>
+        <label>Table 1</label>
+        <caption>
+          <p>Percentage of papers related to AIPS in the Indoor Positioning and Indoor Navigation Conference (IPIN).</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Year</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">%AIPS Papers at IPIN</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">2016</td>
+              <td align="center" valign="middle">10.32</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">2017</td>
+              <td align="center" valign="middle">7.56</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">2018</td>
+              <td align="center" valign="middle">9.01</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">2019</td>
+              <td align="center" valign="middle">6.10</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2021</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">7.69</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="sensors-22-01038-t002" position="float">
+        <object-id pub-id-type="pii">sensors-22-01038-t002_Table 2</object-id>
+        <label>Table 2</label>
+        <caption>
+          <p>Coordinates of the five beacons (E1&#x2013;E5) and the four receivers (R1&#x2013;R4) in the experimental environment of the CODEUS online demonstrator.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Coordinate</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">E1</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">E2</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">E3</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">E4</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">E5</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">R1</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">R2</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">R3</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">R4</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">x (m)</td>
+              <td align="center" valign="middle">0.00</td>
+              <td align="center" valign="middle">0.00</td>
+              <td align="center" valign="middle">0.51</td>
+              <td align="center" valign="middle">0.00</td>
+              <td align="center" valign="middle">&#x2212;0.51</td>
+              <td align="center" valign="middle">0.43</td>
+              <td align="center" valign="middle">1.09</td>
+              <td align="center" valign="middle">&#x2212;0.80</td>
+              <td align="center" valign="middle">0.19</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">y (m)</td>
+              <td align="center" valign="middle">0.00</td>
+              <td align="center" valign="middle">0.512</td>
+              <td align="center" valign="middle">0.00</td>
+              <td align="center" valign="middle">&#x2212;0.52</td>
+              <td align="center" valign="middle">0.00</td>
+              <td align="center" valign="middle">&#x2212;0.04</td>
+              <td align="center" valign="middle">1.36</td>
+              <td align="center" valign="middle">0.95</td>
+              <td align="center" valign="middle">1.00</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">z (m)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3.29</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3.43</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3.37</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3.43</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3.37</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.34</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.00</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.00</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.00</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+    </sec>
+    <fn-group>
+      <fn>
+        <p><bold>Publisher&#x2019;s Note:</bold> MDPI stays neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+      </fn>
+    </fn-group>
+  </back>
+</article>
